@@ -1,0 +1,40 @@
+Hello
+
+Make mod
+
+1 - Make info.json
+2 - Make data.lua and require all the other files you need
+	You can put all the other files in a folder if you want, but then you have to require them differently.
+	If you put "sap.lua" in the folder "prototypes" then you would write require("prototypes.sap")
+
+3 - Make the stuff for the game. 
+	Titan.lua has an example ore and all the stuff you need for that.
+	fluid-plant.lua is an example crafting machine.
+	item_and_fluid.lua shows how to make an item or a fluid.
+	water-processing.lua is an example recipe.
+
+4 - So, to make the everything work:
+	Make all the items and fluids.
+	Make all the recipes, setting them to have the right sort of crafting categories.
+	Make the crafting categories if you invented any new ones.
+	Make the crafting machine, setting it to have the right sort of crafting categories to do all the recipes.
+	data:extend them all
+
+5 - data:extend{the_item_you_want, the_other_thing, etc}
+
+6 - if there is an error womp womp, probably a random comma or } in the wrong place.
+	"Unexpected character near ..." could mean you've missed a comma in a list of stuff
+	"Expected } near " means the number of brackets is wrong - it tells you what line to look on but sometimes the problem is on a different line. Again, can mean you've missed a comma.
+
+	If it tells you it can't find something its probably that its typed wrong or not added to extend
+	No errors means you forgot to run the code
+
+7 - if the text is goofy, add the thing you want to the .cfg file.
+	eg Unknown Key: "recipe-name.sap-sea-water-cleaning" means you need
+		[recipe-name]
+		sap-sea-water-cleaning=Sea Water Cleaning
+
+
+Extra bonus fun:
+	if you want the thing in a different place in the inventory screen, set its subgroup and order to put it in the right place.
+	- see subgroups.lua
