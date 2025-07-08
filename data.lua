@@ -120,6 +120,9 @@ require("gearFe1")
 require("burnerminingdrillFe1")
 
 require("boilFe1")
+
+require("offshorepumpFe1")
+
 --replace ironplate with whatevery you want to remove
 -- data.raw.item["iron-plate"] = nil 
 -- remove the dashes when iron plates are not used in any recipes

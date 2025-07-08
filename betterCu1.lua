@@ -14,7 +14,7 @@ betterCu1Recipe = {
       { type = "item", name = "Fe1", amount =1}
     },
     results = {
-      { type = "item", name = "Cu1", amount =1}
+      { type = "item", name = "Cu1", amount =2}
     },
 
     allow_decomposition = false,
