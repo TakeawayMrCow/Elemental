@@ -135,6 +135,14 @@ require("h20processing")
 
 require("storagetank")
 
+require("Fe1better")
+
+require("Zn1")
+
+require("brassbetter")
+
+require("Zn1make")
+
 --replace ironplate with whatevery you want to remove
 -- data.raw.item["iron-plate"] = nil 
 -- remove the dashes when iron plates are not used in any recipes
