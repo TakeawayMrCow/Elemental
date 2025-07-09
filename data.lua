@@ -127,6 +127,12 @@ require("steamFe1")
 
 require("ironstickFe1")
 
+require("oxygen")
+
+require("hydrogen")
+
+require("h20processing")
+
 --replace ironplate with whatevery you want to remove
 -- data.raw.item["iron-plate"] = nil 
 -- remove the dashes when iron plates are not used in any recipes
