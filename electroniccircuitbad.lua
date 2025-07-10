@@ -7,7 +7,7 @@ electroniccircuitbadRecipe = {
 
     energy_required = 3.5, -- How long to make
     subgroup="elemental-basecir",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "brasstransistorspack", amount = 1},

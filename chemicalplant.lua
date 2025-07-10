@@ -2,7 +2,7 @@ chemicalplantRecipe = {
     type = "recipe",
     name = "chemical-plant",
     
-    category = "crafting", 
+    category = "basic-crafting", 
     
 
     energy_required = 6, -- How long to make

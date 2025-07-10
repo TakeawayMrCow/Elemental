@@ -7,7 +7,7 @@ brasstransistorspackbadRecipe = {
 
     energy_required = 1, -- How long to make
     subgroup="elemental-basecir",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "brassplate", amount = 2},

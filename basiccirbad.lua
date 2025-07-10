@@ -7,7 +7,7 @@ basiccirbadRecipe = {
     
 
     energy_required = 2, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "resinblock", amount = 4},

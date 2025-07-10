@@ -16,7 +16,6 @@ brassbetterRecipe = {
     },
     results = {
       { type = "item", name = "brassplate", amount =1},
-      { type = "fluid", name = "ionicwastewater", amount =20},
       { type = "item", name = "Zn1", amount = 1, probability = 0.1}
     },
 
