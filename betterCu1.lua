@@ -7,7 +7,7 @@ betterCu1Recipe = {
     
 
     energy_required = 1, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "impcopplate", amount = 3},

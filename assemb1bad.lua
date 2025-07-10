@@ -7,7 +7,7 @@ assemb1badRecipe = {
     
 
     energy_required = 5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "impcopplate", amount = 3},

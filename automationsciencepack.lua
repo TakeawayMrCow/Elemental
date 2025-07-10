@@ -6,7 +6,7 @@ automationscienceRecipe = {
     subgroup = "science-pack",
     
 
-    energy_required = 1.5, -- How long to make
+    energy_required = 2.5, -- How long to make
     enabled = true,
 
     ingredients = {

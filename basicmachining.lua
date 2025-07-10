@@ -12,9 +12,9 @@ local basicmachining= {
   },
   unit =
   {
-    count = 5,
+    count = 10,
     ingredients = {{"automation-science-pack", 1}},
-    time = 5
+    time = 10
   },
   order = "c-a"
 }

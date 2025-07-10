@@ -7,7 +7,7 @@ badCu1Recipe = {
 
     energy_required = 0.5, -- How long to make
     subgroup="elemental-baseprod",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "impcopplate", amount = 2},
