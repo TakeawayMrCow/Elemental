@@ -7,7 +7,7 @@ h20processingRecipe = {
 
     energy_required = 1, -- How long to make
     subgroup="elemental-baseprod",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "fluid", name = "water", amount = 200},
@@ -19,7 +19,7 @@ h20processingRecipe = {
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/h20process.png",
+    icon = "__elemental__/graphics/waterzap.png",
     icon_size = 64,
     crafting_machine_tint = {
       primary = {b = 0, g = 0, r = 0, a = 0},
