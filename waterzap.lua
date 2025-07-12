@@ -8,7 +8,7 @@ local waterzaptech= {
   {
     {
       type = "unlock-recipe",
-      recipe = "betterCu1"
+      recipe = "h20processing"
     }
   },
   unit =

@@ -2,7 +2,7 @@ sylviteproccesingbasicRecipe = {
     type = "recipe",
     name = "sylviteprocessingbasic",
     
-    category = "basic-crafting", 
+    category = "chemistry", 
     subgroup = "elemental-baseore",
     
 

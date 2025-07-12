@@ -175,6 +175,14 @@ require("Cu1bettertech")
 
 require("waterzap")
 
+require("basiccopperore")
+
+require("impcopref")
+
+require("refcopmake")
+
+require("potassiumcuprite")
+
 --replace ironplate with whatevery you want to remove
 -- data.raw.item["iron-plate"] = nil 
 -- remove the dashes when iron plates are not used in any recipes
