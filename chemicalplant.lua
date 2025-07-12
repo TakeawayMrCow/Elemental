@@ -7,7 +7,7 @@ chemicalplantRecipe = {
 
     energy_required = 6, -- How long to make
     subgroup= "production-machine",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "electronic-circuit", amount = 5},

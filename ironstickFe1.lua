@@ -7,7 +7,7 @@ ironstickFe1Recipe = {
 
     energy_required = 4.5, -- How long to make
     subgroup="elemental-baseprod",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "Fe1", amount = 1},

@@ -7,7 +7,7 @@ burnerminingdrillFe1Recipe = {
 
     energy_required = 4, -- How long to make
     subgroup="energy",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "Fe1", amount = 1},

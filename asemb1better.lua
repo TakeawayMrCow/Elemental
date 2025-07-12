@@ -11,7 +11,7 @@ assemb1betterRecipe = {
 
     ingredients = {
       { type = "item", name = "electronic-circuit", amount = 1},
-      { type = "item", name = "e-zinc", amount = 2},
+      { type = "item", name = "e-sylvite", amount = 2},
       { type = "item", name = "brassplate", amount = 2},
     },
     results = {
@@ -20,7 +20,7 @@ assemb1betterRecipe = {
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/assemb1bad.png",
+    icon = "__elemental__/graphics/assemb1.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {

@@ -1,24 +1,24 @@
-gearFe1Recipe = {
+pipetogroundRecipe = {
     type = "recipe",
-    name = "gearFe1",
+    name = "pipe-to-ground",
     
     category = "crafting", 
     subgroup = "elemental-baseprod",
     
 
-    energy_required = 0.5, -- How long to make
-    enabled = false,
+    energy_required = 1, -- How long to make
+    enabled = true,
 
     ingredients = {
-      { type = "item", name = "Fe1", amount = 1}
+      { type = "item", name = "impironplate", amount = 6}
     },
     results = {
-      { type = "item", name = "iron-gear-wheel", amount =2},
+      { type = "item", name = "pipe-to-ground", amount =2},
     },
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/Fe1gear.png",
+    icon = "__elemental__/graphics/pipe-to-ground.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
@@ -27,4 +27,4 @@ gearFe1Recipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{gearFe1Recipe}
+data:extend{pipetogroundRecipe}
