@@ -1,18 +1,3 @@
-data.raw["recipe"]["iron-plate"].enabled=false
-data.raw["recipe"]["iron-plate"].hidden=true
-data.raw["recipe"]["copper-plate"].enabled=false
-data.raw["recipe"]["copper-plate"].hidden=true
-data.raw["recipe"]["iron-gear-wheel"].enabled=false
-data.raw["recipe"]["iron-gear-wheel"].hidden=true
-data.raw["recipe"]["copper-plate"].hidden=true
-data.raw["recipe"]["offshore-pump"].enabled=false
-data.raw["recipe"]["offshore-pump"].hidden=true
-data.raw["recipe"]["automation-science-pack"].hidden=true
-data.raw["technology"]["automation"].hidden=true
-data.raw["technology"]["steam-power"].hidden=true
-data.raw["technology"]["electronics"].hidden=true
-data.raw["technology"]["automation-science-pack"].hidden=true
-
 require("Prodmiom")
 
 require("itemsubgroup")
@@ -184,6 +169,5 @@ require("refcopmake")
 require("potassiumcuprite")
 
 require("ben-code.ben-data-phase")
---replace ironplate with whatevery you want to remove
--- data.raw.item["iron-plate"] = nil 
--- remove the dashes when iron plates are not used in any recipes
+-- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
+-- If you make a recipe with the same name as a base recipe and it disappears, delete it from recipes-to-remove.
