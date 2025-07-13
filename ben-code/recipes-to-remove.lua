@@ -81,8 +81,6 @@ bulk-inserter-recycling
 burner-generator-recycling
 burner-inserter
 burner-inserter-recycling
-burner-mining-drill
-burner-mining-drill-recycling
 burnt-spoilage
 calcite-recycling
 cannon-shell
@@ -117,8 +115,6 @@ casting-pipe-to-ground
 casting-steel
 centrifuge
 centrifuge-recycling
-chemical-plant
-chemical-plant-recycling
 chemical-science-pack
 chemical-science-pack-recycling
 cliff-explosives
@@ -319,8 +315,6 @@ jellynut-processing
 jellynut-recycling
 jellynut-seed-recycling
 kovarex-enrichment-process
-lab
-lab-recycling
 land-mine
 land-mine-recycling
 landfill
@@ -427,10 +421,6 @@ piercing-rounds-magazine
 piercing-rounds-magazine-recycling
 piercing-shotgun-shell
 piercing-shotgun-shell-recycling
-pipe
-pipe-recycling
-pipe-to-ground
-pipe-to-ground-recycling
 pistol
 pistol-recycling
 plastic-bar
@@ -529,8 +519,6 @@ simple-entity-with-force-recycling
 simple-entity-with-owner-recycling
 slowdown-capsule
 slowdown-capsule-recycling
-small-electric-pole
-small-electric-pole-recycling
 small-lamp
 small-lamp-recycling
 solar-panel
@@ -580,8 +568,6 @@ stone-wall
 stone-wall-recycling
 storage-chest
 storage-chest-recycling
-storage-tank
-storage-tank-recycling
 submachine-gun
 submachine-gun-recycling
 substation
