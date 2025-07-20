@@ -7,7 +7,7 @@ offshorepumpFe1Recipe = {
 
     energy_required = 1.5, -- How long to make
     subgroup="energy",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "Fe1", amount = 1},
