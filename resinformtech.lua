@@ -2,7 +2,7 @@ local resinformtech= {
   type = "technology",
   name = "resinformtech",
   icon_size = 256,
-  icon = "__elemental__/graphics/resinblock.png",
+  icon = "__elemental__/graphics/resin.png",
   prerequisites = {"basicmachining"},
   effects =
   {

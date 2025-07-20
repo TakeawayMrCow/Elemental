@@ -2,7 +2,7 @@ local brasstech= {
   type = "technology",
   name = "brasstech",
   icon_size = 256,
-  icon = "__elemental__/graphics/brassplate.png",
+  icon = "__elemental__/graphics/brassmake.png",
   prerequisites = {"Cu1badtech"},
   effects =
   {
