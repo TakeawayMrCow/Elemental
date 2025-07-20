@@ -3,7 +3,7 @@ betterCu1Recipe = {
     name = "betterCu1",
     
     category = "chemistry", 
-    subgroup = "elemental-basecir",
+    subgroup = "elemental-basechem",
     
 
     energy_required = 1, -- How long to make

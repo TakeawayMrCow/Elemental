@@ -7,11 +7,18 @@ data.raw["recipe"]["iron-gear-wheel"].hidden=true
 data.raw["recipe"]["copper-plate"].hidden=true
 data.raw["recipe"]["offshore-pump"].enabled=false
 data.raw["recipe"]["offshore-pump"].hidden=true
+data.raw["recipe"]["firearm-magazine"].hidden=true
+data.raw["recipe"]["firearm-magazine"].enabled=false
+data.raw["recipe"]["offshorepumpFe1"].hidden=true
+data.raw["recipe"]["offshorepumpFe1"].enabled=false     
+
 data.raw["recipe"]["automation-science-pack"].hidden=true
 data.raw["technology"]["automation"].hidden=true
 data.raw["technology"]["steam-power"].hidden=true
 data.raw["technology"]["electronics"].hidden=true
 data.raw["technology"]["automation-science-pack"].hidden=true
+
+
 
 require("Prodmiom")
 
@@ -182,6 +189,8 @@ require("impcopref")
 require("refcopmake")
 
 require("potassiumcuprite")
+
+require("betterplatestech")
 
 --replace ironplate with whatevery you want to remove
 -- data.raw.item["iron-plate"] = nil 

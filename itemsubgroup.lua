@@ -24,6 +24,13 @@ data:extend{
 
 {
   type = "item-subgroup",
+  name = "elemental-basechem",
+  group = "elementalbase",
+  order = "d"
+},
+
+{
+  type = "item-subgroup",
   name = "elemental-baseore",
   group = "elementalbase",
   order = "a"

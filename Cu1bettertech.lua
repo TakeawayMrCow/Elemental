@@ -3,7 +3,7 @@ local Cu1bettertech= {
   name = "Cu1bettertech",
   icon_size = 256,
   icon = "__elemental__/graphics/2Cu1.png",
-  prerequisites = {"chemicalautomation"},
+  prerequisites = {"chemicalautomation", "Fe1tech"},
   effects =
   {
     {

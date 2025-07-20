@@ -3,7 +3,7 @@ Fe1betterRecipe = {
     name = "Fe1better",
     
     category = "chemistry", 
-    subgroup = "elemental-baseprod",
+    subgroup = "elemental-basechem",
     
 
     energy_required = 0.5, -- How long to make

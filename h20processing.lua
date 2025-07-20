@@ -6,7 +6,7 @@ h20processingRecipe = {
     
 
     energy_required = 1, -- How long to make
-    subgroup="elemental-baseprod",
+    subgroup="elemental-basechem",
     enabled = false,
 
     ingredients = {

@@ -3,7 +3,7 @@ local basicboardtech= {
   name = "basicboardtech",
   icon_size = 256,
   icon = "__elemental__/graphics/electronic-circuits-bad/basic-circuit-board.png",
-  prerequisites = {"resinformtech"},
+  prerequisites = {"resinformtech", "Cu1badtech"},
   effects =
   {
     {

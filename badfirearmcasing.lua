@@ -6,7 +6,7 @@ badfirearmcasingRecipe = {
     
 
     energy_required = 0.5, -- How long to make
-    subgroup="elemental-basemilit",
+    subgroup="ammo",
     enabled = true,
 
     ingredients = {

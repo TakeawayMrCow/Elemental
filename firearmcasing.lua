@@ -4,7 +4,7 @@ local firecasingItem = {
   icon = "__elemental__/graphics/firearmcasing.png",
   -- order = "b",
   stack_size = 100,
-  subgroup = "elemental-basemilit"
+  subgroup = "ammo"
 }
 
 data:extend{firecasingItem}

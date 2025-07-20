@@ -3,7 +3,7 @@ badammoRecipe = {
     name = "badammo",
     
     category = "basic-crafting", 
-    subgroup = "elemental-basemilit",
+    subgroup = "ammo",
     
 
     energy_required =1.5, -- How long to make
