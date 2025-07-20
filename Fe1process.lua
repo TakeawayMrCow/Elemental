@@ -37,6 +37,10 @@ local Fe1process= {
     {
       type = "unlock-recipe",
       recipe = "offshorepumpFe1"
+    },
+    {
+      type = "unlock-recipe",
+      recipe = "betterinsert"
     }
   },
   unit =

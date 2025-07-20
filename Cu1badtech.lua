@@ -2,7 +2,7 @@ local Cu1badtech= {
   type = "technology",
   name = "Cu1badtech",
   icon_size = 256,
-  icon = "__elemental__/graphics/Cu1.png",
+  icon = "__elemental__/graphics/Cu1pure.png",
   prerequisites = {"basicmachining"},
   effects =
   {

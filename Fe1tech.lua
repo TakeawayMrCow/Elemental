@@ -2,7 +2,7 @@ local Fe1tech= {
   type = "technology",
   name = "Fe1tech",
   icon_size = 256,
-  icon = "__elemental__/graphics/Fe1.png",
+  icon = "__elemental__/graphics/ironpurifying.png",
   prerequisites = {"chemicalautomation"},
   effects =
   {
