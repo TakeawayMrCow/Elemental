@@ -2,7 +2,7 @@ local assemb1bettertech= {
   type = "technology",
   name = "assemb1bettertech",
   icon_size = 256,
-  icon = "__elemental__/graphics/assemb1.png",
+  icon = "__elemental__/graphics/betterasemb1.png",
   prerequisites = {"cirtech"},
   effects =
   {

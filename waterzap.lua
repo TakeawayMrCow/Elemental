@@ -2,7 +2,7 @@ local waterzaptech= {
   type = "technology",
   name = "waterzaptech",
   icon_size = 256,
-  icon = "__elemental__/graphics/waterzap.png",
+  icon = "__elemental__/graphics/waterzappyzap.png",
   prerequisites = {"chemicalautomation"},
   effects =
   {

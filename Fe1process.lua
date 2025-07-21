@@ -2,7 +2,7 @@ local Fe1process= {
   type = "technology",
   name = "Fe1process",
   icon_size = 256,
-  icon = "__elemental__/graphics/Fe1gear.png",
+  icon = "__elemental__/graphics/fe1process.png",
   prerequisites = {"Fe1tech"},
   effects =
   {
@@ -45,9 +45,9 @@ local Fe1process= {
   },
   unit =
   {
-    count =25,
+    count =35,
     ingredients = {{"automation-science-pack", 1}},
-    time = 25
+    time = 20
   },
   order = "c-a"
 }

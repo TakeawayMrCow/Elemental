@@ -2,7 +2,7 @@ local basicelctric= {
   type = "technology",
   name = "basicelctric",
   icon_size = 256,
-  icon = "__elemental__/graphics/electronic-circuits-bad/brasstransistorspack.png",
+  icon = "__elemental__/graphics/brasstran.png",
   prerequisites = {"brasstech"},
   effects =
   {

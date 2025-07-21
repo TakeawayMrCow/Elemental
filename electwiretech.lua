@@ -2,7 +2,7 @@ local electwiretech= {
   type = "technology",
   name = "electwiretech",
   icon_size = 256,
-  icon = "__elemental__/graphics/electronic-circuits-bad/basic-electronic-wire.png",
+  icon = "__elemental__/graphics/elecwire.png",
   prerequisites = {"brasstech"},
   effects =
   {

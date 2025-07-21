@@ -2,7 +2,7 @@ local chemicalautomation= {
   type = "technology",
   name = "chemicalautomation",
   icon_size = 256,
-  icon = "__elemental__/graphics/chemical-plant.png",
+  icon = "__elemental__/graphics/chemplant.png",
   prerequisites = {"cirtech"},
   effects =
   {

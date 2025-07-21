@@ -2,7 +2,7 @@ local cirtech= {
   type = "technology",
   name = "cirtech",
   icon_size = 256,
-  icon = "__elemental__/graphics/electronic-circuits-bad/electronic-circuit.png",
+  icon = "__elemental__/graphics/cir.png",
   prerequisites = {"basicboardtech", "electwiretech", "basicelctric"},
   effects =
   {
