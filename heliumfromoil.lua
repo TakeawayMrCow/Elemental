@@ -25,6 +25,7 @@ seaWaterRecipe = {
       primary = {b = 1, g = 0, r = 1, a = 0.6},
       secondary = {b = 0.95, g = 0., r = 0.9, a = 0.1},
       teriary = {b = 0.1, g = 0, r = 1},
+      quaternary = {b = 0.1, g = 0, r = 1},
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

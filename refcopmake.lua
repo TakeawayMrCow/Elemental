@@ -25,7 +25,9 @@ refcopRecipe = {
     icon_size = 64,
     crafting_machine_tint = {
       primary = {r = 0.821, g = 0.388, b = 0.365, a = 1},
-      secondary = {r = 0.821, g = 0.388, b = 0.365, a = 1}    
+      secondary = {r = 0.821, g = 0.388, b = 0.365, a = 1},
+      teriary = {r = 0.821, g = 0.388, b = 0.365, a = 1}, 
+      quaternary = {r = 0.821, g = 0.388, b = 0.365, a = 1},  
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

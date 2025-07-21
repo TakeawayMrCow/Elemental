@@ -25,7 +25,8 @@ basicwoodgrowRecipe = {
     crafting_machine_tint = {
       primary = {r = 0.529, g = 0.283, b = 0.086, a = 1},
       secondary = {r = 0.529, g = 0.283, b = 0.086, a = 0.6},
-      teriary = {r = 0.529, g = 0.283, b = 0.086, a = 1}
+      teriary = {r = 0.529, g = 0.283, b = 0.086, a = 1},
+      quaternary = {r = 0.529, g = 0.283, b = 0.086, a = 1},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

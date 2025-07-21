@@ -25,7 +25,9 @@ badFe1Recipe = {
     icon_size = 64,
     crafting_machine_tint = {
       primary = {r = 0.691, g = 0.691, b = 0.682, a = 1},
-      secondary = {r = 0.691, g = 0.691, b = 0.682, a = 1}    
+      secondary = {r = 0.691, g = 0.691, b = 0.682, a = 1},  
+      teriary =  {r = 0.691, g = 0.691, b = 0.682, a = 1}, 
+      quaternary =  {r = 0.691, g = 0.691, b = 0.682, a = 1},  
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

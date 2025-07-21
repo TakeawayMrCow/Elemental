@@ -190,6 +190,14 @@ require("badinsert")
 
 require("betterinsert")
 
+require("slyvitetech")
+
+require("basicironore")
+
+require("ironchloride")
+
+require("refironbad")
+
 
 
 

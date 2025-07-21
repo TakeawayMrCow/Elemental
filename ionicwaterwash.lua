@@ -25,9 +25,10 @@ ionicwaterwashRecipe = {
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
-      primary = {r = 0.114, g = 0.498, b = 0.165, a = 1},
-      secondary = {r = 0.114, g = 0.498, b = 0.165, a = 1},
-      teriary = {r = 0.114, g = 0.498, b = 0.165, a = 1}
+      primary = {r = 0.114, g = 0.498, b = 0.165},
+      secondary = {r = 0.114, g = 0.498, b = 0.165},
+      teriary = {r = 0.114, g = 0.498, b = 0.165},
+      quaternary = {r = 0.114, g = 0.498, b = 0.165},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

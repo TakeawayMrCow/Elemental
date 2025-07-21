@@ -26,7 +26,9 @@ brassbetterRecipe = {
     icon_size = 64,
     crafting_machine_tint = {
       primary = {r = 0.45, g = 0.06, b = 0.65, a = 1},
-      secondary = {r = 0.45, g = 0.06, b = 0.65, a = 1}    
+      secondary = {r = 0.45, g = 0.06, b = 0.65, a = 1}, 
+      teriary = {r = 0.45, g = 0.06, b = 0.65, a = 1}, 
+      quaternary = {r = 0.45, g = 0.06, b = 0.65, a = 1},    
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

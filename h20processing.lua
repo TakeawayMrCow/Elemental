@@ -22,8 +22,10 @@ h20processingRecipe = {
     icon = "__elemental__/graphics/waterzap.png",
     icon_size = 64,
     crafting_machine_tint = {
-      primary = {b = 0, g = 0, r = 0, a = 0},
-      secondary = {b = 0, g = 0, r = 0, a = 0},
+      primary = {r = 0.43, g = 0.733, b = 0.83},
+      secondary = {r = 0.43, g = 0.733, b = 0.83},
+      teriary = {r = 0.43, g = 0.733, b = 0.83},
+      quaternary = {r = 0.43, g = 0.733, b = 0.83},
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

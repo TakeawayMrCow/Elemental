@@ -23,9 +23,10 @@ growsubfertRecipe = {
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
-      primary = {b = 0.639, g = 0.21, r = 0.39, a = 0.6},
-      secondary = {b = 0.639, g = 0.21, r = 0.39, a = 0.6},
-      teriary = {b = 0.639, g = 0.21, r = 0.39, a = 0.6}
+      primary = {b = 0.639, g = 0.21, r = 0.39},
+      secondary = {b = 0.639, g = 0.21, r = 0.39},
+      teriary = {b = 0.639, g = 0.21, r = 0.39},
+      quaternary = {b = 0.639, g = 0.21, r = 0.39},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
