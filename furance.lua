@@ -2,8 +2,7 @@ stonefurnaceRecipe = {
     type = "recipe",
     name = "stone-furnace",
     
-    category = "basic-crafting",
-    subgroup = "elemental-baseprod",
+    category = "crafting",
     
     energy_required = 2, -- How long to make
     enabled = true,

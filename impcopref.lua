@@ -7,7 +7,7 @@ impcoprefRecipe = {
     
 
     energy_required = 2, -- How long to make
-    enabled = true,
+    enabled = false,
     hidden = true,
 
     ingredients = {

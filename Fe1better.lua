@@ -7,7 +7,7 @@ Fe1betterRecipe = {
     
 
     energy_required = 0.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "impironplate", amount = 1},

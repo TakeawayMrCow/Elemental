@@ -561,8 +561,6 @@ steel-plate
 steel-plate-recycling
 stone-brick
 stone-brick-recycling
-stone-furnace
-stone-furnace-recycling
 stone-recycling
 stone-wall
 stone-wall-recycling

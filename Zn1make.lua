@@ -7,11 +7,11 @@ Zn1betterRecipe = {
     
 
     energy_required = 0.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "e-zinc", amount = 1},
-      { type = "item", name = "phosphorus", amount =1}
+      { type = "item", name = "potassium", amount =1}
     },
     results = {
       { type = "item", name = "Zn1", amount =1},
