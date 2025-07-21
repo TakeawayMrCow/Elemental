@@ -18,6 +18,7 @@ local recipe = {
   type = "recipe",
   category = "smelting",
   name = "impironplate",
+  hidden = true,
   enabled = true,
   energy_required = 3, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-baseore",

@@ -3,7 +3,7 @@ Zn1betterRecipe = {
     name = "Zn1better",
     
     category = "chemistry", 
-    subgroup = "elemental-baseprod",
+    subgroup = "elemental-baseore",
     
 
     energy_required = 0.5, -- How long to make

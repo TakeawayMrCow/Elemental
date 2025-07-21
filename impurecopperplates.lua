@@ -12,12 +12,12 @@ impcopplate.icons = {
 
 impcopplate.pictures = null
 
-
 -- create the recipe prototype from scratch
 local recipe = {
   type = "recipe",
   category = "smelting",
   name = "impcopplate",
+  hidden = true,
   enabled = true,
   energy_required = 2.8, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-baseore",
