@@ -28,7 +28,7 @@ PVCRecipe = {
       primary = {r = 0.85, g = 0.85, b = 0.85},
       secondary = {r = 0.85, g = 0.85, b = 0.85},
       tertiary = {r = 0.85, g = 0.85, b = 0.85},
-      quaternary = {r = 0.48, g = 0.56, b = 0.41},
+      quaternary = {r = 0.48, g = 0.25, b = 0.14},
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
