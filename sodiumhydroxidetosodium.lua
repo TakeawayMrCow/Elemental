@@ -1,0 +1,34 @@
+sodiumhydroxidetosodiumRecipe = {
+    type = "recipe",
+    name = "sodiumhydroxidetosodium",
+    
+    category = "chemistry", 
+    subgroup = "elemental-baseore",
+    
+
+    energy_required = 1, -- How long to make
+    enabled = false,
+
+    ingredients = {
+      { type = "item", name = "sodiumhydroxide", amount = 20}
+    },
+    results = {
+      { type = "item", name = "sodium", amount =15},
+      { type = "fluid", name = "hydrogen", amount = 10},
+      { type = "item", name = "carbon", amount = 2},
+    },
+
+    allow_decomposition = false,
+
+    icon = "__elemental__/graphics/sodium.png",
+    icon_mipmaps = 4,
+    icon_size = 64,
+    crafting_machine_tint = {
+      primary = {r = 0.821, g = 0.388, b = 0.365, a = 1},
+      secondary = {r = 0.821, g = 0.388, b = 0.365, a = 1},
+      teriary = {r = 0.821, g = 0.388, b = 0.365, a = 1}, 
+      quaternary = {r = 0.821, g = 0.388, b = 0.365, a = 1},  
+    },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
+}
+
+data:extend{sodiumhydroxidetosodiumRecipe}

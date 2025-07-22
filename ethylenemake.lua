@@ -10,12 +10,12 @@ ethylenemakeRecipe = {
     enabled = true,
 
     ingredients = {
-      { type = "fluid", name = "HCl", amount =35},
-      { type = "fluid", naame = "sodiumhydroxide"}
+      { type = "fluid", name = "HCl", amount =10},
+      { type = "item", name = "sodiumhydroxide", amount = 2}
     },
     results = {
       { type = "fluid", name = "ethylene", amount = 5},
-      { type = "fluid", name = "ethylenedichlorate", amount = 4}
+      { type = "fluid", name = "ethylenedichloride", amount = 4}
     },
 
     allow_decomposition = false,

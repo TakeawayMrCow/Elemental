@@ -12,6 +12,8 @@ data.raw["technology"]["automation"].hidden=true
 data.raw["technology"]["steam-power"].hidden=true
 data.raw["technology"]["electronics"].hidden=true
 data.raw["technology"]["automation-science-pack"].hidden=true
+
+
 require("Prodmiom")
 
 require("itemsubgroup")
@@ -224,6 +226,15 @@ require("ethylenedichloride")
 
 require("ethylenemake")
 
+require("chloric-recyling")
+
+require("Cr1")
+
+require("PVC(basic)")
+
+require("sodium")
+
+require("PVCbar")
 
 
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
