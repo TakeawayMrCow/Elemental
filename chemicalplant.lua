@@ -10,7 +10,7 @@ chemicalplantRecipe = {
     enabled = false,
 
     ingredients = {
-      { type = "item", name = "electronic-circuit", amount = 5},
+      { type = "item", name = "electronic-circuit", amount = 3},
       { type = "item", name = "brassplate", amount = 10},
       { type = "item", name = "impironplate", amount = 6},
       { type = "item", name = "pipe", amount = 5},

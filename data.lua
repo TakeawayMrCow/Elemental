@@ -204,6 +204,26 @@ require("furance")
 
 require("orerefining")
 
+require("chloricwastewater")
+
+require("sodiumhydroxide")
+
+require("waterzaphydrogen")
+
+require("Cl1make")
+
+require("Cl1")
+
+require("HCl")
+
+require("HClmake")
+
+require("ethylene")
+
+require("ethylenedichloride")
+
+require("ethylenemake")
+
 
 
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
