@@ -2,7 +2,7 @@ local basicmachining= {
   type = "technology",
   name = "basicmachining",
   icon_size = 256,
-  icon = "__base__/graphics/technology/automation-1.png",
+  icon = "__elemental__/graphics/basicmachining.png",
   effects =
   {
     {
