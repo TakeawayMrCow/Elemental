@@ -7,17 +7,17 @@ PVCRecipe = {
 
     
 
-    energy_required = 3.1, -- How long to make
+    energy_required = 3, -- How long to make
     enabled = true,
 
     ingredients = {
-      { type = "fluid", name = "ethylenedichloride", amount = 7},
-      { type = "fluid", name = "ethylene", amount = 2}
+      { type = "fluid", name = "ethylenedichloride", amount = 15},
+      { type = "fluid", name = "ethylene", amount = 5}
 
     },
     results = {
       { type = "item", name = "sodium", amount = 5, probability = 0.01},
-      { type = "item", name = "PVCbar", amount = 1, probability = 0.99}
+      { type = "item", name = "PVCbar", amount = 2, probability = 0.99}
     },
 
     allow_decomposition = false,

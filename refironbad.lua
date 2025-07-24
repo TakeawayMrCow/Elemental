@@ -17,7 +17,7 @@ refironbadRecipe = {
     },
     results = {
       { type = "item", name = "basicironore", amount = 2},
-      { type = "fluid", name = "ironchloride", amount = 5, probability = 0.15}
+      { type = "fluid", name = "ironchloride", amount = 5, probability = 0.45}
     },
 
     allow_decomposition = false,
@@ -25,10 +25,10 @@ refironbadRecipe = {
     icon = "__elemental__/graphics/basicironore.png",
     icon_size = 64,
     crafting_machine_tint = {
-      primary = {r = 0.62, g = 0.43, b = 0.45},
-      secondary = {r = 0.62, g = 0.43, b = 0.45},
-      tertiary = {r = 0.62, g = 0.43, b = 0.45},
-      quaternary = {r = 0.62, g = 0.43, b = 0.45},
+      primary = {r = 0.42, g = 0.54, b = 0.62},
+      secondary = {r = 0.42, g = 0.54, b = 0.62},
+      tertiary = {r = 0.42, g = 0.54, b = 0.62},
+      quaternary = {r = 0.42, g = 0.54, b = 0.62},
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 

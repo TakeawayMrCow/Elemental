@@ -6,7 +6,7 @@ ethylenemakeRecipe = {
     subgroup = "elemental-basechem",
     
 
-    energy_required = 3, -- How long to make
+    energy_required = 4.5, -- How long to make
     enabled = true,
 
     ingredients = {
@@ -14,8 +14,9 @@ ethylenemakeRecipe = {
       { type = "item", name = "sodiumhydroxide", amount = 2}
     },
     results = {
-      { type = "fluid", name = "ethylene", amount = 5},
-      { type = "fluid", name = "ethylenedichloride", amount = 4}
+      { type = "fluid", name = "ethylene", amount = 20},
+      { type = "fluid", name = "ethylenedichloride", amount = 2},
+      { type = "item", name = "carbon", amount = 3, probability = 0.25}
     },
 
     allow_decomposition = false,

@@ -15,19 +15,20 @@ ironchloriderecylingRecipe = {
     },
     results = {
       { type = "item", name = "iron-ore", amount =5},
+      { type = "item", name = "filterused", amount =1},
       { type = "fluid", name = "chloricwastewater", amount = 50, probability = 0.9}
     },
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/brassplate.png",
+    icon = "__elemental__/graphics/ironchloride.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
-      primary = {r = 0.62, g = 0.43, b = 0.45},
-      secondary = {r = 0.62, g = 0.43, b = 0.45},
-      tertiary = {r = 0.62, g = 0.43, b = 0.45},
-      quaternary = {r = 0.62, g = 0.43, b = 0.45},   
+      primary = {r = 0.34, g = 0.52, b = 0.14},
+      secondary = {r = 0.34, g = 0.52, b = 0.14},
+      tertiary = {r = 0.34, g = 0.52, b = 0.14},
+      quaternary = {r = 0.34, g = 0.52, b = 0.14},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
