@@ -7,14 +7,15 @@ Cl1Recipe = {
     
 
     energy_required = 0.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "chlorinecrystal", amount =6},
       { type = "item", name = "sodiumhydroxide", amount =6},
     },
     results = {
-      { type = "fluid", name = "Cl1", amount = 10, probability = 0.65}
+      { type = "fluid", name = "Cl1", amount = 10, probability = 0.8},
+      { type = "fluid", name = "Cl2", amount = 20, probability = 0.2}
     },
 
     allow_decomposition = false,

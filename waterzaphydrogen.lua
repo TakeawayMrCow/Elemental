@@ -7,7 +7,7 @@ waterzaphydrogenRecipe = {
     
 
     energy_required = 2, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "fluid", name = "water", amount =40},

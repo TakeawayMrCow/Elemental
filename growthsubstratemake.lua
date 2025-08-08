@@ -7,7 +7,7 @@ basicsubRecipe = {
     
 
     energy_required = 2.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "stone", amount = 5},

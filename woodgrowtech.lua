@@ -21,7 +21,7 @@ local woodgrowtech= {
     ingredients = {{"automation-science-pack", 1}},
     time = 15
   },
-  order = "c-a"
+  order = "z"
 }
 
 data:extend{woodgrowtech}
