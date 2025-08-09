@@ -7,7 +7,7 @@ ethylenemakeRecipe = {
     
 
     energy_required = 4.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "fluid", name = "HCl", amount =10},

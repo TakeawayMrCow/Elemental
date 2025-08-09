@@ -7,7 +7,7 @@ HClRecipe = {
     
 
     energy_required = 0.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "fluid", name = "Cl1", amount =10},
