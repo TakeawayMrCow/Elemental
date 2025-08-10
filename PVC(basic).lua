@@ -3,7 +3,7 @@ PVCRecipe = {
     name = "PVC",
     
     category = "chemistry",
-    subgroup = "elemental-baseore",
+    subgroup = "elemental-basechem",
 
     
 
@@ -17,7 +17,8 @@ PVCRecipe = {
     },
     results = {
       { type = "item", name = "sodium", amount = 5, probability = 0.01},
-      { type = "item", name = "PVCbar", amount = 2, probability = 0.99}
+      { type = "item", name = "PVCbar", amount = 2, probability = 0.99},
+      { type = "fluid", name = "ethylenedichloride", amount = 2, probability = 0.35}
     },
 
     allow_decomposition = false,

@@ -3,7 +3,7 @@ brassbetterRecipe = {
     name = "brassbetter",
     
     category = "chemistry", 
-    subgroup = "elemental-basechem",
+    subgroup = "elemental-baseore",
     
 
     energy_required = 0.5, -- How long to make

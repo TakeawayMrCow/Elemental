@@ -3,7 +3,7 @@ potcupRecipe = {
     name = "potcup",
     
     category = "chemistry",
-    subgroup = "elemental-baseore",
+    subgroup = "elemental-basechem",
 
     
 
@@ -11,7 +11,7 @@ potcupRecipe = {
     enabled = true,
 
     ingredients = {
-      { type = "item", name = "filter", amount = 3},
+      { type = "item", name = "filter", amount = 1},
       { type = "fluid", name = "potassiumcuprite", amount = 45}
 
     },

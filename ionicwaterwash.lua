@@ -4,7 +4,7 @@ ionicwaterwashRecipe = {
     name = "ionicwaterwash",
     
     category = "chemistry", 
-    subgroup = "elemental-baseprod",
+    subgroup = "elemental-basechem",
     
 
     energy_required = 1, -- How long to make
@@ -21,7 +21,7 @@ ionicwaterwashRecipe = {
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/phosphorus.png",
+    icon = "__elemental__/graphics/ionicwastewater.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {

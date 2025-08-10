@@ -3,7 +3,7 @@ PVCethylRecipe = {
     name = "PVCethyl",
     
     category = "chemistry",
-    subgroup = "elemental-baseore",
+    subgroup = "elemental-basechem",
 
     
 
@@ -17,7 +17,8 @@ PVCethylRecipe = {
     },
     results = {
       { type = "fluid", name = "chloricwastewater", amount = 6, probability = 0.1},
-      { type = "item", name = "PVCbar", amount = 3, probability = 0.9}
+      { type = "item", name = "PVCbar", amount = 2, probability = 0.9},
+      { type = "fluid", name = "ethylene", amount = 11, probability = 0.45}
     },
 
     allow_decomposition = false,

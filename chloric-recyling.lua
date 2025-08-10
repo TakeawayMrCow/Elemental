@@ -3,7 +3,7 @@ chloricreclycingRecipe = {
     name = "chloricreclycing",
     
     category = "chemistry",
-    subgroup = "elemental-baseore",
+    subgroup = "elemental-basechem",
 
     
 

@@ -3,7 +3,7 @@ sodiumhydroxidetosodiumRecipe = {
     name = "sodiumhydroxidetosodium",
     
     category = "chemistry", 
-    subgroup = "elemental-baseore",
+    subgroup = "elemental-basechem",
     
 
     energy_required = 1, -- How long to make
