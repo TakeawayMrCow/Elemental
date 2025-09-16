@@ -8,7 +8,7 @@ ionicwaterwashRecipe = {
     
 
     energy_required = 1, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "fluid", name = "ionicwastewater", amount = 80},

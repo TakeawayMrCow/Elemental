@@ -7,7 +7,7 @@ sodiumhydroxidetosodiumRecipe = {
     
 
     energy_required = 1, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "sodiumhydroxide", amount = 20}

@@ -7,7 +7,7 @@ filtercleanRecipe = {
     
 
     energy_required = 0.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "filterused", amount = 1},

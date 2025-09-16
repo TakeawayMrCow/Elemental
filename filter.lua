@@ -7,7 +7,7 @@ filterRecipe = {
 
     energy_required = 1, -- How long to make
     subgroup="elemental-baseprod",
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "carbon", amount = 5},

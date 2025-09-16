@@ -8,7 +8,7 @@ potcupRecipe = {
     
 
     energy_required = 1.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "filter", amount = 1},

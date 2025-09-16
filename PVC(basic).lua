@@ -8,7 +8,7 @@ PVCRecipe = {
     
 
     energy_required = 3, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "fluid", name = "ethylenedichloride", amount = 15},
