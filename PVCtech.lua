@@ -2,7 +2,7 @@ local PVC= {
   type = "technology",
   name = "PVC",
   icon_size = 256,
-  icon = "__elemental__/graphics/plastic-bar(ethyl).png",
+  icon = "__elemental__/graphics/PVC2.png",
   prerequisites = {"Hcl"},
   effects =
   {

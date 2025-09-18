@@ -2,8 +2,8 @@ local growthsubfert= {
   type = "technology",
   name = "growthsubfert",
   icon_size = 256,
-  icon = "__elemental__/graphics/growsubfert.png",
-  prerequisites = {"filtertech"},
+  icon = "__elemental__/graphics/plantdev1.png",
+  prerequisites = {"basicwasteman"},
   effects =
   {
     {

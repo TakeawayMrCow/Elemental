@@ -2,7 +2,7 @@ local sodiumdecomposition= {
   type = "technology",
   name = "sodiumdecomposition",
   icon_size = 256,
-  icon = "__elemental__/graphics/sodiumhydroxide.png",
+  icon = "__elemental__/graphics/NaOHtech.png",
   prerequisites = {"chlorine"},
   effects =
   {

@@ -2,7 +2,7 @@ local filtertech= {
   type = "technology",
   name = "filtertech",
   icon_size = 256,
-  icon = "__elemental__/graphics/filter.png",
+  icon = "__elemental__/graphics/basicfiltertech.png",
   prerequisites = {"sodiumdecomposition","PVC"},
   effects =
   {

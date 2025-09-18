@@ -20,7 +20,7 @@ chertwashRecipe = {
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/chertwash.png",
+    icon = "__elemental__/graphics/chert/cherticon.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {

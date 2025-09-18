@@ -2,7 +2,7 @@ local basicwasteman= {
   type = "technology",
   name = "basicwasteman",
   icon_size = 256,
-  icon = "__elemental__/graphics/filterused.png",
+  icon = "__elemental__/graphics/wasteman1.png",
   prerequisites = {"filtertech"},
   effects =
   {
