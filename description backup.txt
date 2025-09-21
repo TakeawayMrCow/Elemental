@@ -1,0 +1,52 @@
+THIS MOD IS IN VERY EARLY BETA. IT IS CURRENTLY UNFINISHED AND MAY HAVE SOME MAJOR BALANCING ISSUES. ALL OF THIS IS SUBJECT TO CHANGE.
+
+This overhaul mod is an attempt at adding all the elements from the Periodic Table to Factorio. It includes complex chemistry chains, new raw resources and intermediates and an overhauled science system. 
+
+THE SCIENCE™:
+
+This mod will (eventually) overhaul the existing sciences, and add a few more as well. All these new sciences are samples of different particles and molecules, all requiring complex processes to get to. The current order and progression for sample packs is:
+
+1. Impure material sample pack (basic impure plates)
+
+2. Silicate sample pack (Quartz and Magnesium Silicate)
+
+3. Salt sample pack (Sodium Chloride and Calcium Carbonate)
+
+4. Acidic sample pack (Sulphuric acid, Nitric acid, Hydrochloric acid)
+
+5. Carbonic sample pack (Diamond core, Refined Graphite, Dense carbon)
+
+6. Crystalline sample pack (Beryllium aluminate (Be₃Al₂), Processed sapphire, Zicronium Oxide)
+
+7. Elemental sample pack (Americium Fluoride (AmF₃), Holmium Tungstide (Ho₂W₃O₁₂), Polonium Bismide (PoBi)
+
+8. Isotopic sample pack (Flerovium-289, Moscovium-289, Curium-247, Berkelium-247, Praseodymium-141)
+
+9. (Infinite research, not required to win) Synthetic sample pack(Curium-245 sphere, Polonium-Flerovide, Californium-252 shell, Einsteinium-252 core)
+
+These samples (except the first one) all need a sample core, which is made out of synthetic materials like PVC. They cores get more complex with each science, but you can used the previous sciences' cores in exchange for a less efficient recipe. 
+
+FEATURES:                                             
+
+(NOTE - Most of these features are planned, as the mod is currently in early Beta. More features to come!")
+
+An overhauled circuit system, requiring specialized wires, boards, transistors and more. The complexity increases with each tier.
+
+A (maybe overly complex) new chemistry system for reacting stuff.
+
+All new intermediates made of the elements.
+
+A new oil refining system (very original I know). This will involve multi step processes and natural gasses.
+
+Upgraded vanilla recipes, like iron gear wheels having different crafting times.
+
+A purity system for metals and gasses to increase efficiency in crafting recipies.
+
+The Elemental-Ometer:
+
+14/118
+
+Oxygen, Helium, Hydrogen, Chrome, Copper, Phosphorus, Carbon, Sodium, Potassium, Gold, Zinc, Praseodymium, Chlorine, Iron.
+
+That's all there is to say for now. If you enjoy the Mod, please feel free to leave feedback in the discord I will link whenever I make it. 
+Thanks!
