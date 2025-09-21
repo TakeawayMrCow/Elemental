@@ -14,7 +14,7 @@ chertwashRecipe = {
       { type = "fluid", name = "water", amount = 60},
     },
     results = {
-      { type = "item", name = "washedchert", amount =5, probability = 0.9},
+      { type = "item", name = "washedchert", amount =5},
       { type = "item", name = "clay", amount =3, probability = 0.15},
     },
 
