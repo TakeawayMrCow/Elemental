@@ -2,7 +2,7 @@ THIS MOD IS IN VERY EARLY BETA. IT IS CURRENTLY UNFINISHED AND MAY HAVE SOME MAJ
 
 This overhaul mod is an attempt at adding all the elements from the Periodic Table to Factorio. It includes complex chemistry chains, new raw resources and intermediates and an overhauled science system. 
 
-THE SCIENCE™:
+THE SCIENCE:
 
 This mod will (eventually) overhaul the existing sciences, and add a few more as well. All these new sciences are samples of different particles and molecules, all requiring complex processes to get to. The current order and progression for sample packs is:
 
@@ -28,7 +28,7 @@ These samples (except the first one) all need a sample core, which is made out o
 
 FEATURES:                                             
 
-(NOTE - Most of these features are planned, as the mod is currently in early Beta. More features to come!")
+(NOTE - Most of these features are planned, as the mod is currently in early Beta. More features to come!)
 
 An overhauled circuit system, requiring specialized wires, boards, transistors and more. The complexity increases with each tier.
 
@@ -40,7 +40,7 @@ A new oil refining system (very original I know). This will involve multi step p
 
 Upgraded vanilla recipes, like iron gear wheels having different crafting times.
 
-A purity system for metals and gasses to increase efficiency in crafting recipies.
+A purity system for metals and gasses to increase efficiency in crafting recipes.
 
 The Elemental-Ometer:
 
@@ -49,4 +49,6 @@ The Elemental-Ometer:
 Oxygen, Helium, Hydrogen, Chrome, Copper, Phosphorus, Carbon, Sodium, Potassium, Gold, Zinc, Praseodymium, Chlorine, Iron.
 
 That's all there is to say for now. If you enjoy the Mod, please feel free to leave feedback in the discord I will link whenever I make it. 
+Thanks!
+
 Thanks!
