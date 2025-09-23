@@ -22,4 +22,7 @@ for key,value in pairs(data.raw["autoplace-control"]) do
 		data.raw["map-gen-presets"]["default"]["elemental"].basic_settings.autoplace_controls[key] = {frequency = "none"}
 	end
 end
-		
+
+-- All this is to remove biters. We also want to adjust the frequency-size-richness of various elements:
+
+data.raw["map-gen-presets"]["default"]["elemental"].basic_settings.autoplace_controls["e-rare-earth-metals"] = {frequency = 0.33, size = 0.5, richness = "very-high"}
