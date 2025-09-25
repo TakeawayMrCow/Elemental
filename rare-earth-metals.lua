@@ -71,10 +71,10 @@ data:extend({
       base_density = 6.8,
       base_spots_per_km2 = 1.3,
       has_starting_area_placement = false,
-      regular_rq_factor_multiplier = 1.4,
-      starting_rq_factor_multiplier = 1.6,
-      random_spot_size_minimum = 0.4,
-      random_spot_size_maximum = 2.2,
+      regular_rq_factor_multiplier = 0.8,
+      starting_rq_factor_multiplier = 1.2,
+      random_spot_size_minimum = 0.2,
+      random_spot_size_maximum = 1.2,
       tile_restriction = nil,
       additional_richness = 0
     })
