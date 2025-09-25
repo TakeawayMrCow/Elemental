@@ -1,25 +1,24 @@
-chertpowderiseRecipe = {
+MgcookRecipe = {
     type = "recipe",
-    name = "chertpowderise",
+    name = "chertcook",
     
-    category = "basic-crafting",
+    category = "smelting", 
     subgroup = "elemental-basechem",
     
 
-    energy_required = 1.6, -- How long to make
+    energy_required = 12.5, -- How long to make
     enabled = true,
 
     ingredients = {
-      { type = "item", name = "chert", amount = 4},
+      { type = "item", name = "magnesium", amount = 2},
     },
     results = {
-      { type = "item", name = "chertpowder", amount =8, probability = 0.95},
-      { type = "item", name = "magnesiumoxide", amount =4, probability = 0.05},
+      { type = "item", name = "magnesiumoxide", amount =3},
     },
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/chertpowder.png",
+    icon = "__elemental__/graphics/magnesium.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
@@ -30,4 +29,4 @@ chertpowderiseRecipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{chertpowderiseRecipe}
+data:extend{MgcookRecipe}
