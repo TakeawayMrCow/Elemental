@@ -1,320 +1,160 @@
-data.raw["recipe"]["iron-plate"].enabled=false
-data.raw["recipe"]["iron-plate"].hidden=true
-data.raw["recipe"]["copper-plate"].enabled=false
-data.raw["recipe"]["copper-plate"].hidden=true
-data.raw["recipe"]["iron-gear-wheel"].enabled=false
-data.raw["recipe"]["iron-gear-wheel"].hidden=true
-data.raw["recipe"]["copper-plate"].hidden=true
-data.raw["recipe"]["offshore-pump"].enabled=false
-data.raw["recipe"]["offshore-pump"].hidden=true
-data.raw["recipe"]["automation-science-pack"].hidden=true
-data.raw["technology"]["automation"].hidden=true
-data.raw["technology"]["steam-power"].hidden=true
-data.raw["technology"]["electronics"].hidden=true
-data.raw["technology"]["automation-science-pack"].hidden=true
-
-
 require("Prodmiom")
 
 require("itemsubgroup")
 
-require("rare-earth-metals")
+require("ores.rare-earth-metals")
+require("ores.basicironore")
+require("ores.basiccopperore")
 
-require("Helium")
+require("technologies.sylvitetech")
+require("ores.sylvite")
+require("recipes.sylviteprocessing")
 
-require("heliumfromoil")
+require("technologies.orerefining")
+require("ores.zinc")
+require("items.Zn1")
+require("recipes.Zn1make")
 
-require("impureironplates")
+require("ores.chert")
+require("items.chert")
+require("recipes.chert")
+require("items.quartz")
 
-require("impurecopperplates")
+require("items.iron")
+require("recipes.iron")
+require("technologies.Fe1tech")
+require("technologies.Fe1bettertech")
+require("technologies.Fe1process")
 
-require("gearimpironplate")
+require("recipes.gear")
+require("recipes.ironstick")
+require("recipes.pipe")
+require("recipes.steam-engine")
+require("recipes.storagetank")
+require("recipes.offshorepump")
+require("recipes.boiler")
+require("recipes.burnerminingdrill")
+require("recipes.inserter")
 
-require("stickimpiron")
+require("technologies.basicmachining")
+require("technologies.assemb1bettertech")
+require("recipes.assemb1")
 
-require("sylvite")
+require("items.copper")
+require("recipes.copper")
+require("technologies.Cu1badtech")
+require("technologies.Cu1bettertech")
 
-require("chlorinecrystals")
+require("technologies.electwiretech")
+require("items.basicelectwire")
+require("recipes.basicelectwire")
 
-require("potassium")
+require("technologies.cirtech")
+require("recipes.electroniccircuitbad")
 
-require("sylviteprocessingbasic")
+require("technologies.basicboardtech")
+require("items.basicboard")
+require("recipes.basiccirbad")
 
-require("badammo")
+require("technologies.brasstech")
+require("items.brass")
+require("recipes.brass")
 
-require("badfirearmcasing")
+require("technologies.basicelctric")
+require("items.brasstransistorspack")
+require("recipes.brasstransistorspackrecipe")
 
-require("firearmcasing")
+require("items.firearmcasing")
+require("recipes.badfirearmcasing")
+require("recipes.badammo")
 
-require("assemb1bad")
+require("items.Helium")
+require("recipes.heliumfromoil")
 
-require("Cu1")
+require("technologies.chlorine")
+require("items.chlorine")
+require("recipes.chlorine")
 
-require("badCu1")
+require("items.potassium")
+require("recipes.potcup")
 
-require("zinc")
+require("technologies.resinformtech")
+require("items.resinblock")
+require("recipes.resinblock")
 
-require("brass")
+require("recipes.automationsciencepack")
 
-require("basicelectwirebad")
+require("recipes.woodenpowerpole")
 
-require("basicboard")
+require("items.phosphorus")
 
-require("resinblock")
+require("technologies.growthsubfert")
+require("items.growthsubstrate")
+require("recipes.growthsubstrate")
 
-require("basiccirbad")
+require("technologies.woodgrowtech")
+require("recipes.woodgrow")
 
-require("resinblockbad")
+require("technologies.chemicalautomation")
+require("recipes.chemicalplant")
 
-require("brasstransistorspack")
+require("recipes.lab")
 
-require("brasstransistorspackrecipe")
+require("recipes.furnace")
 
-require("electroniccircuitbad")
+require("items.ionicwastewater")
+require("recipes.ionicwaterwash")
 
-require("basicmachining")
+require("technologies.waterzap")
+require("items.oxygen")
+require("items.hydrogen")
+require("recipes.h20processing")
 
-require("automationsciencepack")
+require("technologies.hydroelec")
+require("recipes.waterzaphydrogen")
 
-require("offshorepump")
+require("items.magnesium")
+require("recipes.magnesium")
 
-require("boiler")
+require("technologies.PVCtech")
+require("items.PVCbar")
+require("recipes.PVC")
 
-require("steam-engine")
+require("technologies.Hcltechno")
+require("items.HCl")
+require("recipes.HClmake")
 
-require("burnerminingdrill")
+require("items.ironchloride")
+require("recipes.ironchloriderecyling")
 
-require("woodenpowerpole")
+require("technologies.sodiumdecomposition")
+require("items.sodium")
+require("recipes.sodiumhydroxidetosodium")
 
-require("basicelectwireawful")
+require("items.ethylene")
+require("recipes.ethylenemake")
 
-require("asemb1better")
+require("items.Cr1")
 
-require("growthsubstrate")
+require("items.carbon")
 
-require("growthsubstratemake")
+require("technologies.filtertech")
+require("technologies.basicwastemanagment")
+require("recipes.filter")
+require("items.filter")
 
-require("chemicalplant")
+require("items.Au1")
 
-require("basicwoodgrow")
+require("items.clay")
 
-require("Fe1")
+require("items.basicsamplecore")
 
-require("ionicwastewater")
+require("recipes.basicsamplecore")
 
-require("Fe1bad")
+require("items.silicon")
 
-require("betterCu1")
-
-require("pipe")
-
-require("phosphorus")
-
-require("ionicwaterwash")
-
-require("growsubfert")
-
-require("pipeFe1")
-
-require("gearFe1")
-
-require("burnerminingdrillFe1")
-
-require("boilFe1")
-
-require("offshorepumpFe1")
-
-require("steamFe1")
-
-require("ironstickFe1")
-
-require("oxygen")
-
-require("hydrogen")
-
-require("h20processing")
-
-require("storagetank")
-
-require("Fe1better")
-
-require("Zn1")
-
-require("brassbetter")
-
-require("Zn1make")
-
-require("lab")
-
-require("Cu1badtech")
-
-require("brasstech")
-
-require("basicelctric")
-
-require("resinformtech")
-
-require("basicboardtech")
-
-require("electwiretech")
-
-require("cirtech")
-
-require("chemicalautomation")
-
-require("pipetoground")
-
-require("pipetogroundFe1")
-
-require("Fe1tech")
-
-require("Fe1process")
-
-require("assemb1bettertech")
-
-require("Cu1bettertech")
-
-require("waterzap")
-
-require("basiccopperore")
-
-require("impcopref")
-
-require("refcopmake")
-
-require("potassiumcuprite")
-
-require("betterplatestech")
-
-require("ben-code.ben-data-phase")
-
-require("badinsert")
-
-require("betterinsert")
-
-require("slyvitetech")
-
-require("basicironore")
-
-require("ironchloride")
-
-require("refironbad")
-
-require("impironref")
-
-require("furance")
-
-require("orerefining")
-
-require("chloricwastewater")
-
-require("sodiumhydroxide")
-
-require("waterzaphydrogen")
-
-require("Cl1make")
-
-require("Cl1")
-
-require("HCl")
-
-require("HClmake")
-
-require("ethylene")
-
-require("ethylenedichloride")
-
-require("ethylenemake")
-
-require("chloric-recyling")
-
-require("Cr1")
-
-require("PVC(basic)")
-
-require("sodium")
-
-require("PVCbar")
-
-require("sodiumhydroxidetosodium")
-
-require("carbon")
-
-require("PVC(ethyl)")
-
-require("filter")
-
-require("filteritem")
-
-require("usedfilteritem")
-
-require("ironchloriderecyling")
-
-require("filterclean")
-
-require("potcup")
-
-require("Au1")
-
-require("woodgrowtech")
-
-require("hydroelec")
-
-require("chlorine")
-
-require("Cl2")
-
-require("Hcltechno")
-
-require("PVCtech")
-
-require("sodiumdecomposition")
-
-require("filtertech")
-
-require("basicwastemanagment")
-
-require("growthsubfert")
-
-require("chert")
-
-require("washedchert")
-
-require("clay")
-
-require("chertwash")
-
-require("chertcook")
-
-require("quartz")
-
-require("basicsamplecore")
-
-require("basicsamplecoremake")
-
-require("chertpowder")
-
-require("chertpowderise")
-
-require("magnesium")
-
-require("silicon")
-
-require("chertpowderfloat")
-
-require("magnesiumoxide")
-
-require("Mgcook")
-
-require("magnesiumperoxide")
-
-require("Mgo2create")
-
-require("magnesiumsilicatemake")
-
-require("magnesiumsilicate")
-
-require("silicatesamplepack")
+require("recipes.silicatesamplepack")
 
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
 -- If you make a recipe with the same name as a base recipe and it disappears, delete it from recipes-to-remove.
+require("ben-code.ben-data-phase")
