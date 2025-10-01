@@ -85,6 +85,8 @@ require("items.resinblock")
 require("recipes.resinblock")
 
 require("recipes.automationsciencepack")
+require("recipes.silicatesamplepack")
+data.raw["tool"]["production-science-pack"].localised_name = {"item-name.silicate-sample-pack"}
 
 require("recipes.woodenpowerpole")
 
