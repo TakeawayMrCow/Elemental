@@ -1,4 +1,4 @@
-local gowthsubstrateItem = {
+local growthsubstrateItem = {
   name = "growthsubstrate",
   type = "item",
   icon = "__elemental__/graphics/growthsubstrate.png",
@@ -7,4 +7,4 @@ local gowthsubstrateItem = {
   subgroup = "elemental-basenat"
 }
 
-data:extend{gowthsubstrateItem}
+data:extend{growthsubstrateItem}

@@ -1,4 +1,4 @@
-local recipe = {
+local basicelectricwirebadRecipe = {
   type = "recipe",
   category = "basic-crafting",
   name = "basicelectwire",
@@ -40,4 +40,4 @@ basicelectwireawfulRecipe = {
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{recipe, basicelectwireawfulRecipe}
+data:extend{basicelectricwirebadRecipe, basicelectwireawfulRecipe}

@@ -2,7 +2,6 @@ local smeltRecipe = {
   type = "recipe",
   category = "smelting",
   name = "impironplate",
-  hidden = true,
   enabled = true,
   energy_required = 3, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-baseore",
@@ -91,7 +90,6 @@ impironrefRecipe = {
 
     energy_required = 2, -- How long to make
     enabled = true,
-    hidden = true,
 
     ingredients = {
       { type = "item", name = "basicironore", amount = 2}

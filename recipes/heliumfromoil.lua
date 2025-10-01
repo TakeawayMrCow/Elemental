@@ -1,4 +1,4 @@
-recipe = {
+heliumfromoilRecipe = {
     type = "recipe",
     name = "heliumfromoil",
     category = "oil-processing", 
@@ -29,6 +29,6 @@ recipe = {
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{recipe}
+data:extend{heliumfromoilRecipe}
 
 

@@ -1,6 +1,6 @@
 MgcookRecipe = {
     type = "recipe",
-    name = "chertcook",
+    name = "mgcook",
     
     category = "smelting", 
     subgroup = "elemental-basechem",
