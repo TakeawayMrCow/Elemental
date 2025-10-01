@@ -62,8 +62,14 @@ data:extend{
  name = "elemental-basenat",
  group = "elementalbase",
  order = "d"
-}
+},
 
+{
+  type = "item-subgroup",
+  name = "elemental-fluiddump",
+  group = "elemental",
+  order = "z"
+}
 
 
 }
