@@ -1,3 +1,6 @@
+-- did you know that in programming, it is common practise to make sure something works before uploading it, especially if it invloves changing how the files are Managed (29th september 2025 refence (Craft_momkey needs to lock in ahh))
+-- note to self - make sure files work 
+
 require("Prodmiom")
 
 require("itemsubgroup")
@@ -154,6 +157,8 @@ require("recipes.basicsamplecore")
 require("items.silicon")
 
 require("recipes.silicatesamplepack")
+
+
 
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
 -- If you make a recipe with the same name as a base recipe and it disappears, delete it from recipes-to-remove.

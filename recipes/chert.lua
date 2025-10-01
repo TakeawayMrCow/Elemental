@@ -128,4 +128,4 @@ chertcookRecipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{chertpowderiseRecipe, chertpowderFloatRecipe, chertwashRecipe, chertcookRecipe}
+data:extend{chertpowderiseRecipe, chertpowderfloatRecipe, chertwashRecipe, chertcook}
