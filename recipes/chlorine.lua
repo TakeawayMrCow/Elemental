@@ -5,8 +5,6 @@ chloricreclycingRecipe = {
     category = "chemistry",
     subgroup = "elemental-basechem",
 
-    
-
     energy_required = 5, -- How long to make
     enabled = false,
 
@@ -20,6 +18,7 @@ chloricreclycingRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/chloricwastewater.png",
     icon_size = 64,
@@ -52,6 +51,7 @@ Cl1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Cl1.png",
     icon_mipmaps = 4,

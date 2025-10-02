@@ -18,7 +18,8 @@ burnerminingdrillRecipe = {
       { type = "item", name = "burner-mining-drill", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/burnerminingdrill.png",
     icon_size = 64,
@@ -49,6 +50,7 @@ burnerminingdrillFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/burnerminingdrillFe1.png",
     icon_size = 64,

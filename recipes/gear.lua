@@ -16,7 +16,8 @@ gearimpureironRecipe = {
       { type = "item", name = "iron-gear-wheel", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/impureirongear.png",
     icon_size = 64,
@@ -45,6 +46,7 @@ gearFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Fe1gear.png",
     icon_mipmaps = 4,

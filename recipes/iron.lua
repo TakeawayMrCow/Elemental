@@ -34,6 +34,7 @@ badFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Fe1.png",
     icon_mipmaps = 4,
@@ -68,6 +69,7 @@ Fe1betterRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/2Fe1.png",
     icon_mipmaps = 4,
@@ -99,6 +101,7 @@ impironrefRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/impironref.png",
     icon_size = 64,
@@ -131,6 +134,7 @@ refironbadRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/basicironore.png",
     icon_size = 64,

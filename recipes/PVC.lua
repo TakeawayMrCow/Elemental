@@ -22,6 +22,7 @@ PVCRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/plastic-bar.png",
     icon_size = 64,
@@ -57,6 +58,7 @@ PVCethylRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/plastic-bar(ethyl).png",
     icon_size = 64,

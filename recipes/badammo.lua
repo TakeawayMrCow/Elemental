@@ -17,7 +17,8 @@ badammoRecipe = {
       { type = "item", name = "firearm-magazine", amount = 1}
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/badammo.png",
     icon_mipmaps = 4,

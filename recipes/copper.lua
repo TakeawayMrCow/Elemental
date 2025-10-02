@@ -33,6 +33,7 @@ badCu1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Cu1.png",
     icon_size = 64,
@@ -62,6 +63,7 @@ betterCu1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/2Cu1.png",
     icon_mipmaps = 4,
@@ -93,6 +95,7 @@ impcoprefRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/impcopref.png",
     icon_size = 64,
@@ -123,6 +126,7 @@ refcopRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/basiccopperore.png",
     icon_mipmaps = 4,

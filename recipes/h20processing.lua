@@ -18,6 +18,7 @@ h20processingRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/waterzap.png",
     icon_size = 64,

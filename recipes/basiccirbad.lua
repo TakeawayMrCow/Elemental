@@ -19,7 +19,8 @@ basiccirbadRecipe = {
       { type = "item", name = "wood", amount = 1, probability = 0.1}
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/electronic-circuits-bad/basic-circuit-board.png",
     icon_mipmaps = 4,

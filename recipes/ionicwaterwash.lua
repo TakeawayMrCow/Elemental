@@ -20,6 +20,7 @@ ionicwaterwashRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/ionicwastewater.png",
     icon_mipmaps = 4,

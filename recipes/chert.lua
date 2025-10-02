@@ -18,6 +18,7 @@ chertpowderiseRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/chertpowder.png",
     icon_mipmaps = 4,
@@ -52,6 +53,7 @@ chertpowderfloatRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/silicon.png",
     icon_mipmaps = 4,
@@ -85,6 +87,7 @@ chertwashRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/chert/cherticon.png",
     icon_mipmaps = 4,
@@ -116,6 +119,7 @@ chertcookRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/quartz.png",
     icon_mipmaps = 4,

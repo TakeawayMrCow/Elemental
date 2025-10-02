@@ -18,6 +18,7 @@ heliumfromoilRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Helium.png",
     icon_size = 64,

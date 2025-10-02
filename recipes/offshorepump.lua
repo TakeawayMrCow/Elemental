@@ -17,7 +17,8 @@ offshorepumpRecipe = {
       { type = "item", name = "offshore-pump", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/offshorepump.png",
     icon_size = 64,
@@ -47,7 +48,8 @@ offshorepumpFe1Recipe = {
     },
 
     allow_decomposition = false,
-
+    show_amount_in_title = false,
+    
     icon = "__elemental__/graphics/offshorepumpFe1.png",
     icon_size = 64,
     crafting_machine_tint = {

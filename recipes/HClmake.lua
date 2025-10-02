@@ -19,6 +19,7 @@ HClRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/HCl.png",
     icon_mipmaps = 4,

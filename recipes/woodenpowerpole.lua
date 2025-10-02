@@ -17,7 +17,8 @@ smallelectricpoleRecipe = {
       { type = "item", name = "small-electric-pole", amount = 2},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/small-electric-pole.png",
     icon_size = 64,

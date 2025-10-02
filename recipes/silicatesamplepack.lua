@@ -18,7 +18,8 @@ productionsciencepackRecipe = {
       { type = "item", name = "production-science-pack", amount =2},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/production-science-pack.png",
     icon_mipmaps = 4,

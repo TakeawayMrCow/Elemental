@@ -5,6 +5,8 @@ local brassRecipe = {
   enabled = false,
   energy_required = 2, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-baseore",
+  allow_decomposition = true,
+  show_amount_in_title = false,
 ingredients = {
     {type = "item", name = "Cu1", amount = 2},
     {type = "item", name = "e-zinc", amount = 2},
@@ -34,6 +36,7 @@ brassbetterRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/brassplate.png",
     icon_mipmaps = 4,
