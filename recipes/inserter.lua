@@ -17,7 +17,8 @@ badinsertRecipe = {
       { type = "item", name = "inserter", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/betterinsert.png",
     icon_size = 64,
@@ -47,6 +48,7 @@ betterinsertRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/badinsert.png",
     icon_size = 64,

@@ -19,6 +19,7 @@ Zn1betterRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Zn1.png",
     icon_mipmaps = 4,

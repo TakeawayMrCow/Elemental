@@ -17,7 +17,8 @@ brasstransistorspackbadRecipe = {
       { type = "item", name = "brasstransistorspack", amount = 2},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/electronic-circuits-bad/brasstransistorspack.png",
     icon_size = 64,

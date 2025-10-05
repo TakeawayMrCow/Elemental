@@ -15,7 +15,8 @@ stonefurnaceRecipe = {
       { type = "item", name = "stone-furnace", amount = 1}
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/stone-furance.png",
     icon_mipmaps = 4,

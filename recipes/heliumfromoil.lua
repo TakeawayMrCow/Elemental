@@ -1,4 +1,4 @@
-recipe = {
+heliumfromoilRecipe = {
     type = "recipe",
     name = "heliumfromoil",
     category = "oil-processing", 
@@ -18,6 +18,7 @@ recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Helium.png",
     icon_size = 64,
@@ -29,6 +30,6 @@ recipe = {
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{recipe}
+data:extend{heliumfromoilRecipe}
 
 

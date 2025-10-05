@@ -18,6 +18,7 @@ basicsubRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/growthsubstrate.png",
     icon_mipmaps = 4,
@@ -50,6 +51,7 @@ growsubfertRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/growsubfert.png",
     icon_mipmaps = 4,

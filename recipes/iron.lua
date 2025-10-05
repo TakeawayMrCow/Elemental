@@ -2,7 +2,6 @@ local smeltRecipe = {
   type = "recipe",
   category = "smelting",
   name = "impironplate",
-  hidden = true,
   enabled = true,
   energy_required = 3, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-baseore",
@@ -35,6 +34,7 @@ badFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Fe1.png",
     icon_mipmaps = 4,
@@ -69,6 +69,7 @@ Fe1betterRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/2Fe1.png",
     icon_mipmaps = 4,
@@ -91,7 +92,6 @@ impironrefRecipe = {
 
     energy_required = 2, -- How long to make
     enabled = true,
-    hidden = true,
 
     ingredients = {
       { type = "item", name = "basicironore", amount = 2}
@@ -101,6 +101,7 @@ impironrefRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/impironref.png",
     icon_size = 64,
@@ -133,6 +134,7 @@ refironbadRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/basicironore.png",
     icon_size = 64,

@@ -18,7 +18,8 @@ boilerRecipe = {
       { type = "item", name = "boiler", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/boiler.png",
     icon_size = 64,
@@ -49,6 +50,7 @@ boilerFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/boilerFe1.png",
     icon_size = 64,

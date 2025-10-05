@@ -18,7 +18,8 @@ assemb1badRecipe = {
       { type = "item", name = "assembling-machine-1", amount = 1}
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/assemb1bad.png",
     icon_mipmaps = 4,
@@ -50,6 +51,7 @@ assemb1betterRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/assemb1.png",
     icon_mipmaps = 4,

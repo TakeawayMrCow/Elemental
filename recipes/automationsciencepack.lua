@@ -17,7 +17,8 @@ automationscienceRecipe = {
       { type = "item", name = "automation-science-pack", amount = 1}
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/automationsciencepack.png",
     icon_mipmaps = 4,

@@ -3,7 +3,6 @@ stickimpironRecipe = {
     name = "stickimpiron",
     
     category = "crafting", 
-    
 
     energy_required = 0.75, -- How long to make
     subgroup="elemental-baseprod",
@@ -16,7 +15,8 @@ stickimpironRecipe = {
       { type = "item", name = "iron-stick", amount = 2},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/impureironstick.png",
     icon_size = 64,
@@ -31,7 +31,6 @@ ironstickFe1Recipe = {
     name = "ironstickFe1",
     
     category = "crafting", 
-    
 
     energy_required = 4.5, -- How long to make
     subgroup="elemental-baseprod",
@@ -45,6 +44,7 @@ ironstickFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/ironstickFe1.png",
     icon_size = 64,

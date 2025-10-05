@@ -18,7 +18,8 @@ steamengineRecipe = {
       { type = "item", name = "steam-engine", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/steam-engine.png",
     icon_size = 64,
@@ -48,6 +49,7 @@ steamFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/steam-engineFe1.png",
     icon_size = 64,

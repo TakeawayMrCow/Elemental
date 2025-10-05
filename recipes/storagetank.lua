@@ -18,7 +18,8 @@ storagetankRecipe = {
       { type = "item", name = "storage-tank", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/storagetank.png",
     icon_size = 64,

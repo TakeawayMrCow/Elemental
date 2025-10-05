@@ -4,9 +4,11 @@ local fluid_dump = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 fluid_dump.name = "fluid-dump"
 fluid_dump.type = "furnace"
 
-fluid_dump.fluid_box.pipe_connections[1].flow_direction = "input-output"
+fluid_dump.fluid_box.pipe_connections[1].flow_direction = "input"
 fluid_dump.fluid_box.production_type = "input"
 fluid_dump.fluid_box.volume = 1000
+
+fluid_dump.subgroup = "elemental-fluiddump"
 
 fluid_dump.fluid_boxes = {fluid_dump.fluid_box}
 
@@ -52,13 +54,15 @@ for fluidName in fluids do
 		data:extend{
 			{
 			type = "recipe",
-    			name = "dump-"..fluidName,
+      name = "dump-"..fluidName,
     
-    			category = "fluid-dump", 
-        		energy_required = 0.1, -- How long to make
-    			enabled = true,
-			hide_from_signal_gui = true,
+      category = "fluid-dump", 
+      energy_required = 0.1, -- How long to make
+      enabled = true,
+			hide_from_signal_gui = false,
 			hide_from_player_crafting = true,
+      localised_name = {"elemental-custom.fluid-dumping",{"fluid-name." .. fluidName}},
+      subgroup = "elemental-fluiddump",
 			icons = {{
 				icon = "__elemental__/graphics/fluid_dumping.png",
 				icon_size = 128,
@@ -68,12 +72,11 @@ for fluidName in fluids do
 				icon_size = data.raw["fluid"][fluidName].icon_size,
 				tint = { a = 0.5, b = 1, g = 1, r = 1},
 				scale = 0.3
-				}},
-
-    			ingredients = {
-      				{ type = "fluid", name = fluidName, amount = 500}
-    			},
-    			results = {},
+      }},
+      ingredients = {
+        { type = "fluid", name = fluidName, amount = 500}
+      },
+      results = {},
 		}}
 		log("Fluid dumping recipe created for "..fluidName)
 	else

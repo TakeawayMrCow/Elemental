@@ -19,6 +19,7 @@ basicsamplecoremakeRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/samplecore.png",
     icon_mipmaps = 4,

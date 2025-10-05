@@ -1,6 +1,6 @@
 MgcookRecipe = {
     type = "recipe",
-    name = "chertcook",
+    name = "mgcook",
     
     category = "smelting", 
     subgroup = "elemental-basechem",
@@ -17,6 +17,7 @@ MgcookRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/magnesium.png",
     icon_mipmaps = 4,
@@ -49,6 +50,7 @@ Mgo2createRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/magnesiumoxide.png",
     icon_mipmaps = 4,
@@ -82,6 +84,7 @@ magnesiumsilicatecreationRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/magnesiumsilicate.png",
     icon_mipmaps = 4,

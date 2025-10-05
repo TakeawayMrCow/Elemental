@@ -2,7 +2,6 @@ local smeltRecipe = {
   type = "recipe",
   category = "smelting",
   name = "impcopplate",
-  hidden = true,
   enabled = true,
   energy_required = 2.8, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-baseore",
@@ -34,6 +33,7 @@ badCu1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/Cu1.png",
     icon_size = 64,
@@ -63,6 +63,7 @@ betterCu1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/2Cu1.png",
     icon_mipmaps = 4,
@@ -84,8 +85,7 @@ impcoprefRecipe = {
     
 
     energy_required = 2, -- How long to make
-    enabled = false,
-    hidden = true,
+    enabled = true,
 
     ingredients = {
       { type = "item", name = "basiccopperore", amount = 2}
@@ -95,6 +95,7 @@ impcoprefRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/impcopref.png",
     icon_size = 64,
@@ -125,6 +126,7 @@ refcopRecipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/basiccopperore.png",
     icon_mipmaps = 4,

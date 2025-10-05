@@ -16,7 +16,8 @@ pipeRecipe = {
       { type = "item", name = "pipe", amount =2},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/pipe.png",
     icon_mipmaps = 4,
@@ -46,6 +47,7 @@ pipeFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/pipeFe1.png",
     icon_mipmaps = 4,
@@ -74,7 +76,8 @@ pipetogroundRecipe = {
       { type = "item", name = "pipe-to-ground", amount =2},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/pipe-to-ground.png",
     icon_mipmaps = 4,
@@ -104,6 +107,7 @@ pipetogroundFe1Recipe = {
     },
 
     allow_decomposition = false,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/pipe-to-groundFe1.png",
     icon_mipmaps = 4,

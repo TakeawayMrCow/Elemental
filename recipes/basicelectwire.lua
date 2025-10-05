@@ -1,4 +1,4 @@
-local recipe = {
+local basicelectricwirebadRecipe = {
   type = "recipe",
   category = "basic-crafting",
   name = "basicelectwire",
@@ -9,7 +9,9 @@ ingredients = {
     {type = "item", name = "Cu1", amount = 2},
     {type = "item", name = "brassplate", amount = 1},
   },
-  results = {{type = "item", name = "basicelectwire", amount = 2}}
+  results = {{type = "item", name = "basicelectwire", amount = 2}},
+  allow_decomposition = false,
+  show_amount_in_title = false,
 }
 
 basicelectwireawfulRecipe = {
@@ -30,7 +32,8 @@ basicelectwireawfulRecipe = {
       { type = "item", name = "basicelectwire", amount = 1},
     },
 
-    allow_decomposition = false,
+    allow_decomposition = true,
+    show_amount_in_title = false,
 
     icon = "__elemental__/graphics/basic-electronic-wirebad.png",
     icon_size = 64,
@@ -40,4 +43,4 @@ basicelectwireawfulRecipe = {
     },    --primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{recipe, basicelectwireawfulRecipe}
+data:extend{basicelectricwirebadRecipe, basicelectwireawfulRecipe}
