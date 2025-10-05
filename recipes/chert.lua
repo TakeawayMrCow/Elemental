@@ -49,7 +49,6 @@ chertpowderfloatRecipe = {
     results = {
       { type = "item", name = "silicon", amount =4},
       { type = "item", name = "magnesium", amount =3, probability = 0.15},
-      { type = "item", name = "clay", amount =2, probability = 0.35},
     },
 
     allow_decomposition = false,

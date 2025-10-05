@@ -1,0 +1,34 @@
+SitoMgRecipe = {
+    type = "recipe",
+    name = "SitoMg",
+    
+    category = "chemistry",
+    subgroup = "elemental-basechem",
+    
+
+    energy_required = 1.5, -- How long to make
+    enabled = true,
+
+    ingredients = {
+      { type = "item", name = "silicon", amount = 5},
+    },
+    results = {
+      { type = "item", name = "magnesium", amount =3},
+      { type = "item", name = "magnesiumoxide", amount =1, probability = 0.5},
+      { type = "item", name = "silicon", amount =1},
+    },
+
+    allow_decomposition = false,
+
+    icon = "__elemental__/graphics/magnesium.png",
+    icon_mipmaps = 4,
+    icon_size = 64,
+    crafting_machine_tint = {
+      primary = {r = 0.41, g = 0.36, b = 0.51},
+      secondary = {r = 0.41, g = 0.36, b = 0.51},
+      teriary = {r = 0.41, g = 0.36, b = 0.51},
+      quaternary = {r = 0.35, g = 0.3, b = 0.45},
+    },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
+}
+
+data:extend{SitoMgRecipe}

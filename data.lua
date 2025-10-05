@@ -161,6 +161,8 @@ require("recipes.silicatesamplepack")
 
 require("recipes.mgperoxidechange")
 
+require("recipes.SitoMg")
+
 
 
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
