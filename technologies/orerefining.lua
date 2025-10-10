@@ -17,6 +17,14 @@ local orerefiningtech= {
     {
         type = "unlock-recipe",
         recipe = "Zn1better"
+    },
+    {
+        type = "unlock-recipe",
+        recipe = "impironref"
+    },
+    {
+        type = "unlock-recipe",
+        recipe = "impcopref"
     }
   },
   unit =
