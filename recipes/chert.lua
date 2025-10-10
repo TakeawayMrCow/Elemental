@@ -104,7 +104,7 @@ chertcookRecipe = {
     name = "chertcook",
     
     category = "smelting", 
-    subgroup = "elemental-basechem",
+    subgroup = "elemental-baseore",
     
 
     energy_required = 2.3, -- How long to make

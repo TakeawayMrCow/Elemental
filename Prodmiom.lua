@@ -13,20 +13,3 @@ praseodymium.icons = {
 praseodymium.pictures = null
 
 
--- create the recipe prototype from scratch
-local recipe = {
-  type = "recipe",
-  name = "praseodymium",
-  enabled = true,
-  energy_required = 1, -- time to craft in seconds (at crafting speed 1)
-  subgroup="elemental-advanced-material-processing",
-ingredients = {
-    {type = "item", name = "iron-ore", amount = 2}
-    
-  },
-  results = {{type = "item", name = "praseodymium", amount = 3}}
-}
-
-data:extend{praseodymium, recipe}
-
-

@@ -71,7 +71,6 @@ require("recipes.badfirearmcasing")
 require("recipes.badammo")
 
 require("items.Helium")
-require("recipes.heliumfromoil")
 
 require("technologies.chlorine")
 require("items.chlorine")

@@ -3,7 +3,7 @@ MgcookRecipe = {
     name = "mgcook",
     
     category = "smelting", 
-    subgroup = "elemental-basechem",
+    subgroup = "elemental-baseore",
     
 
     energy_required = 12.5, -- How long to make
