@@ -7,7 +7,7 @@ SitoMgRecipe = {
     
 
     energy_required = 1.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "silicon", amount = 5},
@@ -20,7 +20,7 @@ SitoMgRecipe = {
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/magnesium.png",
+    icon = "__elemental__/graphics/SitoMg.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {

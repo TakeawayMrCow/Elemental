@@ -7,7 +7,7 @@ productionsciencepackRecipe = {
     
 
     energy_required = 5, -- How long to make
-    enabled = true,
+    enabled = fasle,
 
     ingredients = {
       { type = "item", name = "magnesiumsilicate", amount = 4},

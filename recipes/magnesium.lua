@@ -7,7 +7,7 @@ MgcookRecipe = {
     
 
     energy_required = 12.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "magnesium", amount = 2},
@@ -39,7 +39,7 @@ Mgo2createRecipe = {
     
 
     energy_required = 3.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "magnesium", amount = 4},
@@ -72,7 +72,7 @@ magnesiumsilicatecreationRecipe = {
     
 
     energy_required = 2.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "magnesiumoxide", amount = 2},

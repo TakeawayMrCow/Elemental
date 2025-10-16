@@ -7,7 +7,7 @@ basicsamplecoremakeRecipe = {
     
 
     energy_required = 5.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "PVCbar", amount = 2},

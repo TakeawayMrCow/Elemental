@@ -7,7 +7,7 @@ chertpowderiseRecipe = {
     
 
     energy_required = 1.6, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "chert", amount = 4},
@@ -40,7 +40,7 @@ chertpowderfloatRecipe = {
     
 
     energy_required = 5.5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "chertpowder", amount = 10},
@@ -74,7 +74,7 @@ chertwashRecipe = {
     
 
     energy_required = 5, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "chert", amount = 6},
@@ -108,7 +108,7 @@ chertcookRecipe = {
     
 
     energy_required = 2.3, -- How long to make
-    enabled = true,
+    enabled = false,
 
     ingredients = {
       { type = "item", name = "washedchert", amount = 6},
