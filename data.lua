@@ -168,6 +168,21 @@ require("technologies.mgprocess")
 
 require("technologies.silicatescience")
 
+require("items.rawPGM")
+
+require("items.slagwater")
+
+-- require("recipes.PGM")
+
+require("recipes.slagwaterref")
+
+require("items.ammonia")
+
+require("items.N")
+
+require("recipes.N")
+
+require("recipes.ammonia")
 
 
 
