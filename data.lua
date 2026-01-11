@@ -184,6 +184,16 @@ require("recipes.N")
 
 require("recipes.ammonia")
 
+require("items.hydarxoicsalt")
+
+require("recipes.PGM")
+
+require("items.Pt")
+
+require("items.Ir")
+
+require("items.nitricfumes")
+
 
 
 

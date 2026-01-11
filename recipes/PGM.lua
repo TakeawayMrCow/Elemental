@@ -50,8 +50,8 @@ PtfromCuore2Recipe = {
     },
     results = {
       { type = "item", name = "Pt", amount =8},
-      { type = "fluid", name = "Ir", amount =2},
-      { type = "item", name = "nitruswastewater", amount =1},
+      { type = "item", name = "Ir", amount =2},
+      { type = "fluid", name = "nitricfumes", amount =10},
     },
 
     allow_decomposition = false,
