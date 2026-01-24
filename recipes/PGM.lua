@@ -32,10 +32,9 @@ PtfromCuore1Recipe = {
 }
 
 
-
 PtfromCuore2Recipe = {
     type = "recipe",
-    name = "PtfromCuore1",
+    name = "PtfromCuore2",
     
     category = "chemistry",
     subgroup = "elemental-basechem",
@@ -68,4 +67,4 @@ PtfromCuore2Recipe = {
 }
 
 
-data:extend{PtfromCuore1Recipe, PtfromCuore2Recipe }
+data:extend{PtfromCuore1Recipe, PtfromCuore2Recipe}

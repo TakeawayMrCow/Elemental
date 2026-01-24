@@ -172,7 +172,7 @@ require("items.rawPGM")
 
 require("items.slagwater")
 
--- require("recipes.PGM")
+require("recipes.PGM")
 
 require("recipes.slagwaterref")
 
@@ -184,15 +184,15 @@ require("recipes.N")
 
 require("recipes.ammonia")
 
-require("items.hydarxoicsalt")
-
-require("recipes.PGM")
+require("items.hydrazoicsalt")
 
 require("items.Pt")
 
 require("items.Ir")
 
 require("items.nitricfumes")
+
+require("recipes.nitricfumerecyle")
 
 
 

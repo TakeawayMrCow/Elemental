@@ -1,26 +1,26 @@
-ammoniaRecipe = {
+nitricfumerecycleRecipe = {
     type = "recipe",
-    name = "ammonia",
+    name = "nitricfumerecycle",
     
     category = "chemistry",
     subgroup = "elemental-basechem",
     
 
-    energy_required = 10, -- How long to make
+    energy_required = 5, -- How long to make
     enabled = true,
 
     ingredients = {
-      { type = "fluid", name = "N", amount = 2},
-      { type = "fluid", name = "hydrogen", amount = 6},
+      { type = "fluid", name = "nitricfumes", amount = 35},
+      { type = "item", name = "clay", amount = 2},
     },
     results = {
-      { type = "fluid", name = "ammonia", amount =2, probability = 0.95},
-      { type = "item", name = "hydrazoicsalt", amount =1, probability = 0.05},
+      { type = "fluid", name = "N", amount =20, },
+      { type = "item", name = "hydrazoicsalt", amount =10, probability = 0.95},
     },
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/ammonia.png",
+    icon = "__elemental__/graphics/nitricfumerecylce.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
@@ -31,4 +31,4 @@ ammoniaRecipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{ammoniaRecipe}
+data:extend{nitricfumerecycleRecipe}
