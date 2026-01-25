@@ -64,4 +64,37 @@ growsubfertRecipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{basicsubRecipe, growsubfertRecipe}
+chemicalfertilizer1Recipe = {
+    type = "recipe",
+    name = "chemicalfertilizer1",
+    
+    category = "chemistry", 
+    subgroup = "elemental-basenat",
+    
+
+    energy_required = 4, -- How long to make
+    enabled = true,
+
+    ingredients = {
+      { type = "item", name = "growthsubstrate", amount = 4},
+      { type = "item", name = "ammoniapowder", amount = 20},
+    },
+    results = {
+      { type = "item", name = "chemicalfertilizer", amount = 5}
+    },
+
+    allow_decomposition = false,
+    show_amount_in_title = false,
+
+    icon = "__elemental__/graphics/chemicalfertilizer.png",
+    icon_mipmaps = 4,
+    icon_size = 64,
+    crafting_machine_tint = {
+      primary = {r = 0.59, g = 0.33, b = 0.71},
+      secondary = {r = 0.59, g = 0.33, b = 0.71},
+      teriary = {r = 0.59, g = 0.33, b = 0.71},
+      quaternary = {r = 0.59, g = 0.33, b = 0.71},
+    },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
+}
+
+data:extend{basicsubRecipe, growsubfertRecipe, chemicalfertilizer1Recipe}

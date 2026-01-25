@@ -1,4 +1,6 @@
-THIS MOD IS IN VERY EARLY BETA. IT IS CURRENTLY UNFINISHED AND MAY HAVE SOME MAJOR BALANCING ISSUES. ALL OF THIS IS SUBJECT TO CHANGE.
+THIS MOD IS IN VERY EARLY BETA. IT IS CURRENTLY UNFINISHED AND MAY HAVE SOME MAJOR BALANCING ISSUES OR BUGS. ALL OF THIS IS SUBJECT TO CHANGE.
+
+https://discord.gg/FHuKNkvG
 
 This overhaul mod is an attempt at adding all the elements from the Periodic Table to Factorio. It includes complex chemistry chains, new raw resources and intermediates and an overhauled science system. 
 
@@ -10,9 +12,9 @@ This mod will (eventually) overhaul the existing sciences, and add a few more as
 
 2. Silicate sample pack (Quartz and Magnesium Silicate)
 
-3. Salt sample pack (Sodium Chloride and Calcium Carbonate)
+3. Acidic sample pack (Sulphuric acid, Bromic acid, Vanadic acid)
 
-4. Acidic sample pack (Sulphuric acid, Nitric acid, Hydrochloric acid)
+4. Salt sample pack (Sodium chloride, Scandium Iodate and Calcium Carbonate)
 
 5. Carbonic sample pack (Diamond core, Refined Graphite, Dense carbon)
 
@@ -44,9 +46,9 @@ A purity system for metals and gasses to increase efficiency in crafting recipes
 
 The Elemental-Ometer:
 
-14/118
+16/118
 
-Oxygen, Helium, Hydrogen, Chrome, Copper, Phosphorus, Carbon, Sodium, Potassium, Gold, Zinc, Praseodymium, Chlorine, Iron.
+Oxygen, Helium, Hydrogen, Chrome, Copper, Phosphorus, Carbon, Sodium, Potassium, Gold, Zinc, Chlorine, Iron, Magnesium, Silicon, Uranium.
 
-That's all there is to say for now. If you enjoy the Mod, please feel free to leave feedback in the discord I will link whenever I make it. 
+That's all there is to say for now. If you enjoy the Mod, please feel free to leave feedback in the discord.
 Thanks!

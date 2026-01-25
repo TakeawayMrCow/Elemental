@@ -194,6 +194,12 @@ require("items.nitricfumes")
 
 require("recipes.nitricfumerecyle")
 
+require("items.ammoniapowder")
+
+require("recipes.ammoniapowder")
+
+require("items.chemicalfertilizer")
+
 
 
 
