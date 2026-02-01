@@ -68,7 +68,7 @@ chemicalfertilizer1Recipe = {
     type = "recipe",
     name = "chemicalfertilizer1",
     
-    category = "chemistry", 
+    category = "crafting", 
     subgroup = "elemental-basenat",
     
 
