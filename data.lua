@@ -1,4 +1,4 @@
--- note to self - make sure files work 
+-- note to self - make sure files work
 
 require("Prodmiom")
 
@@ -199,6 +199,20 @@ require("items.ammoniapowder")
 require("recipes.ammoniapowder")
 
 require("items.chemicalfertilizer")
+
+require("items.zincoxide")
+
+require("items.inductionrod")
+
+require("items.warmedinductionrod")
+
+require("recipes.inductionrodheating")
+
+require("recipes.inductionrod")
+
+require("items.SO2")
+
+require("recipes.sulphur")
 
 
 
