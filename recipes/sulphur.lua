@@ -56,7 +56,7 @@ sulphurfromzinc2Recipe = {
 
     allow_decomposition = false,
 
-    icon = "__elemental__/graphics/sulphuric-acid.png",
+    icon = "__elemental__/graphics/sulfuric-acid.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
