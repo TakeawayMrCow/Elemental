@@ -214,6 +214,8 @@ require("items.SO2")
 
 require("recipes.sulphur")
 
+require("items.oxidisedPt")
+
 
 
 

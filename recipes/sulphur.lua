@@ -31,7 +31,7 @@ sulphurfromzinc1Recipe = {
       teriary = {r =0.85, g = 0.94, b = 0.16},
       quaternary = {r =0.85, g = 0.94, b = 0.16},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
-},
+}
 
 sulphurfromzinc2Recipe = {
     type = "recipe",
@@ -65,6 +65,6 @@ sulphurfromzinc2Recipe = {
       teriary = {r =0.85, g = 0.94, b = 0.16},
       quaternary = {r =0.85, g = 0.94, b = 0.16},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
-},
+}
 
 data:extend{sulphurfromzinc1Recipe, sulphurfromzinc2Recipe}
