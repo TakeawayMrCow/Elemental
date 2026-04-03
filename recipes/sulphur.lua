@@ -67,4 +67,4 @@ sulphurfromzinc2Recipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 },
 
-data:extend{sulphurfromzinc1Recipe, sulphurfromzinc1Recipe2}
+data:extend{sulphurfromzinc1Recipe, sulphurfromzinc2Recipe}
