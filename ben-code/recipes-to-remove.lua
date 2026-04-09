@@ -631,8 +631,6 @@ water-barrel
 water-barrel-recycling
 wood-processing
 wood-recycling
-wooden-chest
-wooden-chest-recycling
 yumako-mash-recycling
 yumako-processing
 yumako-recycling
