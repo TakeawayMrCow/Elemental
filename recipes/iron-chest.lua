@@ -25,7 +25,7 @@ impironchestRecipe = {
       primary = {b = 0.639, g = 0.71, r = 0.51, a = 0.6},
       secondary = {b = 0.639, g = 0.71, r = 0.51, a = 0.1},
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
-},
+}
 
 ironchest1Recipe = {
     type = "recipe",
@@ -56,4 +56,4 @@ ironchest1Recipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{impironchestRecipe}
+data:extend{impironchestRecipe,ironchest1Recipe}
