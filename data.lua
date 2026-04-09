@@ -216,6 +216,8 @@ require("recipes.sulphur")
 
 require("items.oxidisedPt")
 
+require("recipes.bad-belt")
+
 
 
 
