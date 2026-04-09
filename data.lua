@@ -218,6 +218,8 @@ require("items.oxidisedPt")
 
 require("recipes.bad-belt")
 
+require("recipes.iron-chest")
+
 
 
 
