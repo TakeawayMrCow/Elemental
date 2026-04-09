@@ -2,7 +2,7 @@ badbeltRecipe = {
     type = "recipe",
     name = "badbelt",
     
-    category = "basic-crafting",
+    category = "crafting",
     
 
     energy_required =1.5, -- How long to make
