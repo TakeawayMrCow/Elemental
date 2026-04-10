@@ -6,7 +6,7 @@ local basicelectricwirebadRecipe = {
   energy_required = 1.5, -- time to craft in seconds (at crafting speed 1)
   subgroup="elemental-basecir",
 ingredients = {
-    {type = "item", name = "Cu1", amount = 2},
+    {type = "item", name = "Cu1", amount = 1},
     {type = "item", name = "brassplate", amount = 1},
   },
   results = {{type = "item", name = "basicelectwire", amount = 2}},

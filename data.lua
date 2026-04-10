@@ -228,6 +228,10 @@ require("recipes.longinsertimp")
 
 require("recipes.longinsertFe1")
 
+require("recipes.bad-split")
+
+require("recipes.bad-under")
+
 
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
 -- If you make a recipe with the same name as a base recipe and it disappears, delete it from recipes-to-remove.
