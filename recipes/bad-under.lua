@@ -12,7 +12,7 @@ badunderRecipe = {
       { type = "item", name = "impironplate", amount = 5}
     },
     results = {
-      { type = "item", name = "underground-belt", amount = 1}
+      { type = "item", name = "underground-belt", amount = 2}
     },
 
     allow_decomposition = true,

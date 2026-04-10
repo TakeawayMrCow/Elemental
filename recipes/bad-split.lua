@@ -5,7 +5,7 @@ badsplitRecipe = {
     category = "crafting",
     
 
-    energy_required =1.5, -- How long to make
+    energy_required =0.5, -- How long to make
     enabled = true,
 
     ingredients = {
