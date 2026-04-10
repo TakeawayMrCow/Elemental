@@ -9,8 +9,8 @@ elecdrillFe1Recipe = {
     hidden = false,
 
     ingredients = {
-      { type = "item", name = "Fe1", amount = 5},
-      { type = "item", name = "electronic-circuit", amount = 2},
+      { type = "item", name = "Fe1", amount = 4},
+      { type = "item", name = "electronic-circuit", amount = 1},
     },
     results = {
       { type = "item", name = "electric-mining-drill", amount = 1}
