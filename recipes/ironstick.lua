@@ -32,7 +32,7 @@ ironstickFe1Recipe = {
     
     category = "crafting", 
 
-    energy_required = 4.5, -- How long to make
+    energy_required = 0.75, -- How long to make
     subgroup="elemental-baseprod",
     enabled = false,
 
