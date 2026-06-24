@@ -2,7 +2,7 @@ getridofKRecipe = {
     type = "recipe",
     name = "getridofK",
     
-    category = "smelting", 
+    category = "chemistry", 
     subgroup = "elemental-baseore",
     
 
