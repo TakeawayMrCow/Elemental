@@ -1,20 +1,20 @@
 local resource_autoplace = require("resource-autoplace")
 
 -- Explicitly initialize patch set
-resource_autoplace.initialize_patch_set("e-rare-earth-metals", true)
+resource_autoplace.initialize_patch_set("halogeniccrytals", true)
 
 data:extend({
   -- Autoplace Control for Map Generation Menu
   {
     type = "autoplace-control",
-    name = "e-rare-earth-metals",
-    localised_name = {"", "[entity=e-rare-earth-metals] ", {"item-name.e-rare-earth-metals"}},
+    name = "halogeniccrytals",
+    localised_name = {"", "[entity=halogeniccrytals] ", {"item-name.halogeniccrytals"}},
     richness = true,
     --order = "a-n",
     category = "resource",
     icons = {
       {
-        icon = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon1.png",
+        icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1",
 
       }
     },
@@ -28,25 +28,25 @@ data:extend({
   {
     subgroup = "elemental-advanced-material-processing",
     type = "resource",
-    name = "e-rare-earth-metals",
-    localised_name = {"",{"item-name.e-rare-earth-metals"}},
+    name = "halogeniccrytals",
+    localised_name = {"",{"item-name.halogeniccrytals"}},
      icons = {
       {
-        icon = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon1.png",
-        tint = {r = 0.7, g = 0, b = 1, a = 1.0} -- RARE hue
+        icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png",
+        tint = {r = 0.33, g = 0.67, b = 0.16, a = 1.0} -- RARE hue
       }
     },
-    icon = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon1.png",
+    icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     icon_mipmaps = 4,
     --order = "a-b-n",
-    map_color = {0.7,0,1},
+    map_color = {r = 0.33, g = 0.67, b = 0.16, a = 1.0},
     minable = {
-        mining_particle = "e-rare-earth-metals-particle",
+        mining_particle = "halogeniccrytals-particle",
         mining_time = 3,
         results = {
-            {type = "item", name = "e-rare-earth-metals", amount = 1}
+            {type = "item", name = "halogeniccrytals", amount = 1}
         },
         --[[fluid_amount = 5,
         required_fluid = ("sap-nitrogen-monoxide")]]
@@ -57,7 +57,7 @@ data:extend({
     stages = {
       sheet =
       {
-        filename = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon.png",
+        filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon.png",
         priority = "extra-high",
         size = 64,
         frame_count = 8,
@@ -66,7 +66,7 @@ data:extend({
       hr_version = nil
     },
     autoplace = resource_autoplace.resource_autoplace_settings({
-      name = "e-rare-earth-metals",
+      name = "halogeniccrytals",
       --order = "b",
       base_density = 6.8,
       base_spots_per_km2 = 1.3,
@@ -87,7 +87,7 @@ data:extend({
 -- Ensure RARE is added to Nauvis' map generation settings
 if data.raw.planet and data.raw.planet.nauvis and data.raw.planet.nauvis.map_gen_settings then
   -- Add RARE to the autoplace controls
-  data.raw.planet.nauvis.map_gen_settings.autoplace_controls["e-rare-earth-metals"] = {
+  data.raw.planet.nauvis.map_gen_settings.autoplace_controls["halogeniccrytals"] = {
     frequency = "normal",
     size = "normal",
     richness = "normal"
@@ -98,57 +98,57 @@ if data.raw.planet and data.raw.planet.nauvis and data.raw.planet.nauvis.map_gen
     data.raw.planet.nauvis.map_gen_settings.autoplace_settings = { entity = { settings = {} } }
   end
 
-  data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["e-rare-earth-metals"] = {
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["halogeniccrytals"] = { -- Unknown entity name: halogeniccrytsals
     starting_area = true,
-    base_density = 6.8,
-    base_spots_per_km2 = 1.3,
-    random_probability = 1.0,
+    base_density = 7,
+    base_spots_per_km2 = 1.42,
+    random_probability = 1.1,
   }
 end
 
 
 
 -- Create an item and a mining particle to go along with the resource.
-local rare_earth_metalsItem= table.deepcopy(data.raw["item"]["iron-ore"])
-rare_earth_metalsItem.icon = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon1.png"
-rare_earth_metalsItem.pictures = {
+local halogeniccrytalsItem= table.deepcopy(data.raw["item"]["iron-ore"])
+halogeniccrytalsItem.icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png"
+halogeniccrytalsItem.pictures = {
         {
-          filename = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon1.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         },
         {
-          filename = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon2.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon2.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         },
         {
-          filename = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon3.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon3.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         },
         {
-          filename = "__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-icon4.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon4.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         }
       }
-rare_earth_metalsItem.name = "e-rare-earth-metals"
-rare_earth_metalsItem.subgroup = "elemental-advanced-material-processing"
+halogeniccrytalsItem.name = "halogeniccrytals"
+halogeniccrytalsItem.subgroup = "elemental-advanced-material-processing"
 
-local rare_earth_metalsParticle = table.deepcopy(data.raw["optimized-particle"]["iron-ore-particle"])
-rare_earth_metalsParticle.name = "e-rare-earth-metals-particle"
-for _,particle in pairs(rare_earth_metalsParticle.pictures) do
+local halogeniccrytalsParticle = table.deepcopy(data.raw["optimized-particle"]["iron-ore-particle"])
+halogeniccrytalsParticle.name = "halogeniccrytals-particle"
+for _,particle in pairs(halogeniccrytalsParticle.pictures) do
   particle.hr_version = nil
-  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-","__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-particles-")
+  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-","__elemental__/graphics/Halogenic Crystals/halogeniccrytals-particles-")
   end
-for _,particle in pairs(rare_earth_metalsParticle.shadows) do
+for _,particle in pairs(halogeniccrytalsParticle.shadows) do
   particle.hr_version = nil
-  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-shadow-","__elemental__/graphics/rare-earth-metals/e-rare-earth-metals-particle-shadow-")
+  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-shadow-","__elemental__/graphics/Halogenic Crystals/halogeniccrytals-particle-shadow-")
 end
 
-data:extend{rare_earth_metalsParticle, rare_earth_metalsItem}
+data:extend{halogeniccrytalsParticle, halogeniccrytalsItem}
