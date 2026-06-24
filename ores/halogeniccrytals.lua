@@ -1,20 +1,20 @@
 local resource_autoplace = require("resource-autoplace")
 
 -- Explicitly initialize patch set
-resource_autoplace.initialize_patch_set("halogeniccrytals", true)
+resource_autoplace.initialize_patch_set("halogeniccrydtals", true)
 
 data:extend({
   -- Autoplace Control for Map Generation Menu
   {
     type = "autoplace-control",
-    name = "halogeniccrytals",
-    localised_name = {"", "[entity=halogeniccrytals] ", {"item-name.halogeniccrytals"}},
+    name = "halogeniccrydtals",
+    localised_name = {"", "[entity=halogeniccrydtals] ", {"item-name.halogeniccrystals"}},
     richness = true,
     --order = "a-n",
     category = "resource",
     icons = {
       {
-        icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1",
+        icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon1",
 
       }
     },
@@ -28,25 +28,25 @@ data:extend({
   {
     subgroup = "elemental-advanced-material-processing",
     type = "resource",
-    name = "halogeniccrytals",
-    localised_name = {"",{"item-name.halogeniccrytals"}},
+    name = "halogeniccrystals",
+    localised_name = {"",{"item-name.halogeniccrystals"}},
      icons = {
       {
-        icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png",
+        icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon1.png",
         tint = {r = 0.33, g = 0.67, b = 0.16, a = 1.0} -- RARE hue
       }
     },
-    icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png",
+    icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon1.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     icon_mipmaps = 4,
     --order = "a-b-n",
     map_color = {r = 0.33, g = 0.67, b = 0.16, a = 1.0},
     minable = {
-        mining_particle = "halogeniccrytals-particle",
+        mining_particle = "halogeniccrystals-particle",
         mining_time = 3,
         results = {
-            {type = "item", name = "halogeniccrytals", amount = 1}
+            {type = "item", name = "halogeniccrystals", amount = 1}
         },
         --[[fluid_amount = 5,
         required_fluid = ("sap-nitrogen-monoxide")]]
@@ -66,7 +66,7 @@ data:extend({
       hr_version = nil
     },
     autoplace = resource_autoplace.resource_autoplace_settings({
-      name = "halogeniccrytals",
+      name = "halogeniccrystals",
       --order = "b",
       base_density = 6.8,
       base_spots_per_km2 = 1.3,
@@ -87,7 +87,7 @@ data:extend({
 -- Ensure RARE is added to Nauvis' map generation settings
 if data.raw.planet and data.raw.planet.nauvis and data.raw.planet.nauvis.map_gen_settings then
   -- Add RARE to the autoplace controls
-  data.raw.planet.nauvis.map_gen_settings.autoplace_controls["halogeniccrytals"] = {
+  data.raw.planet.nauvis.map_gen_settings.autoplace_controls["halogeniccrystals"] = {
     frequency = "normal",
     size = "normal",
     richness = "normal"
@@ -98,7 +98,7 @@ if data.raw.planet and data.raw.planet.nauvis and data.raw.planet.nauvis.map_gen
     data.raw.planet.nauvis.map_gen_settings.autoplace_settings = { entity = { settings = {} } }
   end
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["halogeniccrytals"] = { -- Unknown entity name: halogeniccrytsals
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["halogeniccrystals"] = { -- Unknown entity name: halogeniccrytsals
     starting_area = true,
     base_density = 7,
     base_spots_per_km2 = 1.42,
@@ -109,46 +109,46 @@ end
 
 
 -- Create an item and a mining particle to go along with the resource.
-local halogeniccrytalsItem= table.deepcopy(data.raw["item"]["iron-ore"])
-halogeniccrytalsItem.icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png"
-halogeniccrytalsItem.pictures = {
+local halogeniccrystalsItem= table.deepcopy(data.raw["item"]["iron-ore"])
+halogeniccrystalsItem.icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon1.png"
+halogeniccrystalsItem.pictures = {
         {
-          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon1.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon1.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         },
         {
-          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon2.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon2.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         },
         {
-          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon3.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon3.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         },
         {
-          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrytals-icon4.png",
+          filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon4.png",
           mipmap_count = 4,
           scale = 0.5,
           size = 64
         }
       }
-halogeniccrytalsItem.name = "halogeniccrytals"
-halogeniccrytalsItem.subgroup = "elemental-advanced-material-processing"
+halogeniccrystalsItem.name = "halogeniccrystals"
+halogeniccrystalsItem.subgroup = "elemental-advanced-material-processing"
 
-local halogeniccrytalsParticle = table.deepcopy(data.raw["optimized-particle"]["iron-ore-particle"])
-halogeniccrytalsParticle.name = "halogeniccrytals-particle"
-for _,particle in pairs(halogeniccrytalsParticle.pictures) do
+local halogeniccrydtalsParticle = table.deepcopy(data.raw["optimized-particle"]["iron-ore-particle"])
+halogeniccrydtalsParticle.name = "halogeniccrydtals-particle"
+for _,particle in pairs(halogeniccrydtalsParticle.pictures) do
   particle.hr_version = nil
-  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-","__elemental__/graphics/Halogenic Crystals/halogeniccrytals-particles-")
+  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-","__elemental__/graphics/Halogenic Crystals/halogeniccrydtals-particles-")
   end
-for _,particle in pairs(halogeniccrytalsParticle.shadows) do
+for _,particle in pairs(halogeniccrydtalsParticle.shadows) do
   particle.hr_version = nil
-  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-shadow-","__elemental__/graphics/Halogenic Crystals/halogeniccrytals-particle-shadow-")
+  particle.filename = particle.filename:gsub("__base__/graphics/particle/iron-ore-particle/iron-ore-particle-shadow-","__elemental__/graphics/Halogenic Crystals/halogeniccrydtals-particle-shadow-")
 end
 
-data:extend{halogeniccrytalsParticle, halogeniccrytalsItem}
+data:extend{halogeniccrydtalsParticle, halogeniccrydtalsItem}
