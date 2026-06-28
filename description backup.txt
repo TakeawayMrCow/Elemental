@@ -1,6 +1,6 @@
 THIS MOD IS IN VERY EARLY BETA. IT IS CURRENTLY UNFINISHED AND MAY HAVE SOME MAJOR BALANCING ISSUES OR BUGS. ALL OF THIS IS SUBJECT TO CHANGE.
 
-https://discord.gg/FHuKNkvG
+https://discord.gg/RquWKPc8Gs
 
 This overhaul mod is an attempt at adding all the elements from the Periodic Table to Factorio. It includes complex chemistry chains, new raw resources and intermediates and an overhauled science system. 
 
@@ -44,6 +44,8 @@ Upgraded vanilla recipes, like iron gear wheels having different crafting times.
 
 A purity system for metals and gasses to increase efficiency in crafting recipes.
 
+And a new (in the next update (coming soon)) system for naming the different fluids - Slurry is waste from a compound, mixture or other things that are not elements (Eg PGM slurry), Waste Water is waste from an element (Eg Chloric Waste Water), and Solution is a mixture or compound that is dissolved in water, but is not a waste product (Eg Ferric solution)
+
 The Elemental-Ometer:
 
 16/118
@@ -51,4 +53,13 @@ The Elemental-Ometer:
 Oxygen, Helium, Hydrogen, Chrome, Copper, Phosphorus, Carbon, Sodium, Potassium, Gold, Zinc, Chlorine, Iron, Magnesium, Silicon, Uranium.
 
 That's all there is to say for now. If you enjoy the Mod, please feel free to leave feedback in the discord.
-Thanks!
+
+Ps. 
+
+If you want to play pre-release builds, please let me know as I could upload them somewhere (like a seperate mod for pre-release or something) if people want that :) 
+
+
+
+
+
+  
