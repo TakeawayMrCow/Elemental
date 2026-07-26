@@ -10,8 +10,8 @@ Halo1Recipe = {
     enabled = true,
 
     ingredients = {
-      { type = "item", name = "halogeniccrystals", amount =35},
-      { type = "fluid", name = "oxygen", amount =50},
+      { type = "item", name = "halogeniccrystals", amount =5},
+      { type = "fluid", name = "oxygen", amount =20},
     },
     results = {
       { type = "fluid", name = "Halo1", amount = 20},

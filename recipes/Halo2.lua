@@ -1,4 +1,4 @@
-Halo1Recipe = {
+Halo2Recipe = {
     type = "recipe",
     name = "Halo2",
     
@@ -11,13 +11,13 @@ Halo1Recipe = {
 
     ingredients = {
       { type = "fluid", name = "Halo1", amount = 40},
-      { type = "fluid", name = "SO2", amount = 20},
+      { type = "fluid", name = "SO2", amount = 50},
       { type = "item", name = "iodine-powder", amount = 5}
     },
     
     results = {
-      { type = "fluid", name = "Halo2", amount = 25},
-      { type = "fluid", name = "Bromine", amount = 15},
+      { type = "fluid", name = "Halo2", amount = 50},
+      { type = "fluid", name = "Bromine", amount = 30},
       { type = "item", name = "iodine-powder", amount_min = 1, amount_max = 5},
     },
 
@@ -36,4 +36,4 @@ Halo1Recipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
-data:extend{Halo1Recipe}
+data:extend{Halo2Recipe}

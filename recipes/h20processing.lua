@@ -14,7 +14,7 @@ h20processingRecipe = {
     },
     results = {
       { type = "fluid", name = "oxygen", amount = 60},
-      { type = "fluid", name = "hydrogen", amount = 130},
+      { type = "fluid", name = "hydrogen", amount = 120},
     },
 
     allow_decomposition = false,
