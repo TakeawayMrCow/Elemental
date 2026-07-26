@@ -33,7 +33,7 @@ data:extend({
      icons = {
       {
         icon = "__elemental__/graphics/chert/cherticon.png",
-        tint = {r = 0.19, g = 0.03, b = 0.18} -- RARE hue
+        --tint = {r = 0.19, g = 0.03, b = 0.18} -- RARE hue
       }
     },
     icon = "__elemental__/graphics/chert/cherticon.png",

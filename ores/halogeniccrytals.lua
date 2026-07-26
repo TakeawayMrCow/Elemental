@@ -15,7 +15,6 @@ data:extend({
     icons = {
       {
         icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrydtals-icon1",
-
       }
     },
     icon_size = 64,
@@ -33,7 +32,7 @@ data:extend({
      icons = {
       {
         icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrydtals-icon1.png",
-        tint = {r = 0.33, g = 0.67, b = 0.16, a = 1.0} -- RARE hue
+        tint = {r = 0.98, g = 0.33, b = 0.08, a = 0.1} -- RARE hue
       }
     },
     icon = "__elemental__/graphics/Halogenic Crystals/halogeniccrydtals-icon1.png",
@@ -59,7 +58,7 @@ data:extend({
       {
         filename = "__elemental__/graphics/Halogenic Crystals/halogeniccrystals-icon.png",
         priority = "extra-high",
-        size = 64,
+        size = 128,
         frame_count = 8,
         variation_count = 8,
       },
