@@ -21,7 +21,7 @@ Halo1Recipe = {
     allow_decomposition = false,
     show_amount_in_title = false,
 
-    icon = "__elemental__/graphics/Halo1.png",
+    icon = "__elemental__/graphics/halo1.png",
     icon_mipmaps = 4,
     icon_size = 64,
     crafting_machine_tint = {
