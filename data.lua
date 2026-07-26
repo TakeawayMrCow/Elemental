@@ -240,8 +240,7 @@ require("items.PGMslurry")
 
 require("recipes.Irtometalres")
 
-require("items.Ir1
-")
+require("items.Ir1")
 
 require("recipes.metalresrecylce")
 

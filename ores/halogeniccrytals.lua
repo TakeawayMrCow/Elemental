@@ -41,7 +41,7 @@ data:extend({
     flags = {"placeable-neutral"},
     icon_mipmaps = 4,
     --order = "a-b-n",
-    map_color = {r = 0.33, g = 0.67, b = 0.16, a = 1.0},
+    map_color = {r = 0.98, g = 0.33, b = 0.08, a = 1.0},
     minable = {
         mining_particle = "halogeniccrystals-particle",
         mining_time = 3,
