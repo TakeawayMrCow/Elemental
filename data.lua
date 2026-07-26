@@ -264,8 +264,13 @@ require("items.halo1")
 
 require("recipes.Halo1")
 
+require("items.bromine")
 
+require("recipes.iodineDeposit")
 
+require("items.halo2")
+
+require("recipes.Halo2")
 
 require("achievements.refining-time-1")
 -- go to ben-code/recipes-to-remove or ben-code/techs-to-remove, and add the right thing to it to have that recipe/tech removed.
