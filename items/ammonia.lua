@@ -7,6 +7,7 @@ local ammoniaFluid = {
     icon = "__elemental__/graphics/ammonia.png",
     icon_size = 64,
     gas_temperature=0,
+    fuel_value= "2MJ",
     default_temperature = -33,
     max_temperature = 134
   }
