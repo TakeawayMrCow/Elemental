@@ -69,7 +69,14 @@ data:extend{
   name = "elemental-fluiddump",
   group = "elemental",
   order = "z"
-}
+},
+
+{
+  type = "item-subgroup",
+  name = "advanced-chem",
+  group = "elemental",
+  order = "a"
+},
 
 
 }
