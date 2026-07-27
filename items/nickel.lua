@@ -1,5 +1,5 @@
-local nickel = {
-  name = "nickel",
+local nickelplate = {
+  name = "nickel-plate",
   type = "item",
   icon = "__elemental__/graphics/nickelplate.png",
   -- order = "c",
@@ -7,4 +7,4 @@ local nickel = {
   subgroup = "elemental-baseore"
 }
 
-data:extend{nickel}
+data:extend{nickelplate}
