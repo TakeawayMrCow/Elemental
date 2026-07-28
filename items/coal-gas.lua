@@ -7,7 +7,7 @@ local coalgasFluid = {
     icon = "__elemental__/graphics/coal-gas.png",
     icon_size = 64,
     gas_temperature=0,
-    fuel_value= "10MJ",
+    fuel_value= "1MJ",
     default_temperature = 200,
     max_temperature = 1000
   }
