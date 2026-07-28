@@ -78,6 +78,13 @@ data:extend{
   order = "a"
 },
 
+{
+  type = "item-subgroup",
+  name = "coal",
+  group = "elemental",
+  order = "b"
+},
+
 
 }
 

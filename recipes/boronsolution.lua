@@ -3,7 +3,7 @@ boronsolutionRecipe = {
     name = "boronsolution",
     
     category = "chemistry",
-    subgroup = "advanced-chem",
+    subgroup = "coal",
     
 
     energy_required = 0.5, -- How long to make
