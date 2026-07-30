@@ -146,7 +146,7 @@ Cl2badRecipe = {
     ingredients = {
       { type = "item", name = "chlorinecrystal", amount =25},
       { type = "item", name = "warmedinductionrod", amount =1},
-      { type = "fluid", name = "fluoric-boron solution", amount =100},
+      { type = "fluid", name = "fluoricboronsolution", amount =100},
     },
     results = {
       { type = "fluid", name = "Cl2", amount = 10, probability = 0.75},
@@ -169,5 +169,39 @@ Cl2badRecipe = {
     },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
 }
 
+Cacid2Recipe = {
+    type = "recipe",
+    name = "Cacid2",
+    
+    category = "chemistry", 
+    subgroup = "advanced-chem",
+    
 
-data:extend{chloricreclycingRecipe, Cl1Recipe, Cl1goodRecipe, Cacid1Recipe}
+    energy_required = 2, -- How long to make
+    enabled = true,
+
+    ingredients = {
+      { type = "fluid", name = "Cl2", amount =12},
+      { type = "fluid", name = "water", amount =5},
+    },
+    results = {
+      { type = "fluid", name = "HCLacid", amount = 8},
+      { type = "fluid", name = "chloricwastewater", amount_min = 12, amount_max = 24}
+    },
+
+    allow_decomposition = false,
+    show_amount_in_title = false,
+
+    icon = "__elemental__/graphics/Cl2.png",
+    icon_mipmaps = 4,
+    icon_size = 64,
+    crafting_machine_tint = {
+      primary = {r = 0.32, g = 0.33, b = 0.26},
+      secondary = {r = 0.32, g = 0.33, b = 0.26},
+      tertiary = {r = 0.32, g = 0.33, b = 0.26},
+      quaternary = {r = 0.32, g = 0.33, b = 0.26},
+    },  --  primary = fluid, secondary = foam, tertiary = smoke outer, quaternary = smoke inner
+}
+
+
+data:extend{chloricreclycingRecipe, Cl1Recipe, Cl1goodRecipe, Cacid1Recipe, Cl2badRecipe, Cacid2Recipe}
