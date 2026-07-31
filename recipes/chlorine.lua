@@ -146,7 +146,7 @@ Cl2badRecipe = {
     ingredients = {
       { type = "item", name = "chlorinecrystal", amount =25},
       { type = "item", name = "warmedinductionrod", amount =1},
-      { type = "fluid", name = "fluoricboronsolution", amount =100},
+      { type = "fluid", name = "fluoricboronsolution", amount =12},
     },
     results = {
       { type = "fluid", name = "Cl2", amount = 10, probability = 0.75},

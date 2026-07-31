@@ -2,8 +2,8 @@ fluoricboronsolutionRecipe = {
     type = "recipe",
     name = "fluoricboronsolution",
     
-    category = "basic-crafting",
-    subgroup = "elemental-basechem",
+    category = "chemistry",
+    subgroup = "advanced-chem",
     
     energy_required = 1.5, -- How long to make
     enabled = true,

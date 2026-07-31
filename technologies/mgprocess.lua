@@ -2,7 +2,7 @@ local mgprocess= {
   type = "technology",
   name = "mgprocess",
   icon_size = 256,
-  icon = "__elemental__/graphics/chertprocess.png",
+  icon = "__elemental__/graphics/mgprocess.png",
   prerequisites = {"cherttech"},
   effects =
   {
