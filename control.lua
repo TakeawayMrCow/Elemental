@@ -16,7 +16,7 @@ remote.add_interface("elemental", {
                     {type="item",  name="warmedinductionrod", quantity=1},
                     {type="fluid",  name="sulfuric-acid", quantity=1000},
                     {type="item",  name="halogeniccrystals", quantity=1},
-                    {type="fluid",  name="HCLacid", quantity=1000},
+                    {type="fluid",  name="bromicacid", quantity=1000},
                     {type="group", name="Electronics"},
                     {type="item",  name="basicboard", quantity=1},
                     {type="item",  name="brasstransistorspack", quantity=1},

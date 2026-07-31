@@ -185,7 +185,7 @@ Cacid2Recipe = {
       { type = "fluid", name = "water", amount =5},
     },
     results = {
-      { type = "fluid", name = "HCLacid", amount = 8},
+      { type = "fluid", name = "HCLacid", amount = 12},
       { type = "fluid", name = "chloricwastewater", amount_min = 12, amount_max = 24}
     },
 
